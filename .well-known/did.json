@@ -6,19 +6,19 @@
   "id": "did:web:cooperants.planthaber.de",
   "verificationMethod": [
     {
-      "id": "did:web:delta-dao.com#JWK2020-RSA",
+      "id": "did:web:cooperants.planthaber.de#JWK2020-RSA",
       "type": "JsonWebKey2020",
-      "controller": "did:web:delta-dao.com",
+      "controller": "did:web:cooperants.planthaber.de",
       "publicKeyJwk": {
         "kty": "RSA",
-        "n": "ua_HmwQ7K5o1hCwtXQwyjLE7uLHqhu-IUm94EjYWt5wB4EpuCGbdyxKq6CCjZMClMFQ5xn-U_kwRmJGEvT4CAbEjIAacqVFDEaUCIxFQCk53jDXgaNVgO1HLrpAZBQnSS2cQX_cXRyKZB3VN2ctaNBOQPIBYx680xOmSnsCdJr7CYYX-vbY2pdZEe0gYZ0jOOVzoXMM4m7Hx96dmS952SQpoEWc2pZ6zztEADxFOkPqzcq8BzURsUcFdyIz9MUa0AnwRNOH2hekECx6iPhPBhRvu1iTSRQWBj6AphWlVjHn-E-ENVAtkaW1wphoMuEw5oSOQVvpCravKkLACoe4YB8YBdk6fPBQyBB5OC_wiaLUTsQGGsFDL_A28_KmBnGU3ptRPulOtqjvByYIW896NPI5PdSPatZcpdoQnNxIn3X1eRvTA-NjMgleEcagQzFDfyBQBHPhpUg-C_YR2OIs4nosFl3BQbba6k-r48I7__h1IhZceRfHoUwNoqln3-F51n6cz_GxuXPNNogC7Ju9I3pSZLB62lejmi12VF_oUWkMMcvnr2bq6r4XcgqCyPpbqfJbU_aBYBbOJIK-ciy_Nd7pgxWWyVsGfMc8fvM0USB48k1ZAfdeUoYNjIlI4nxZYPQ5tWgOTMHcYQzYBn4q6Yv8qIHDUCsPQHkGzk7YK5CE",
+        "n": "MIIDkjCCAxigAwIBAgISAzvK1HUADA9fjs8PT6qbMTKEMAoGCCqGSM49BAMDMDIxCzAJBgNVBAYTAlVTMRYwFAYDVQQKEw1MZXQncyBFbmNyeXB0MQswCQYDVQQDEwJFNTAeFw0yNDExMTExMDMxMDlaFw0yNTAyMDkxMDMxMDhaMCMxITAfBgNVBAMTGGNvb3BlcmFudHMucGxhbnRoYWJlci5kZTBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABIyrnps1FNJiFDxAMzWZSnFlGPDEAiHl+unTOJmhXUh189qRg5ykcmKYSt90p3XJDEKcIDbBfqExHO2965azNZujggIbMIICFzAOBgNVHQ8BAf8EBAMCB4AwHQYDVR0lBBYwFAYIKwYBBQUHAwEGCCsGAQUFBwMCMAwGA1UdEwEB/wQCMAAwHQYDVR0OBBYEFG3S21tteeoJ1ofzwlR3RD6WM3FcMB8GA1UdIwQYMBaAFJ8rX888IU+dBLftKyzExnCL0tcNMFUGCCsGAQUFBwEBBEkwRzAhBggrBgEFBQcwAYYVaHR0cDovL2U1Lm8ubGVuY3Iub3JnMCIGCCsGAQUFBzAChhZodHRwOi8vZTUuaS5sZW5jci5vcmcvMCMGA1UdEQQcMBqCGGNvb3BlcmFudHMucGxhbnRoYWJlci5kZTATBgNVHSAEDDAKMAgGBmeBDAECATCCAQUGCisGAQQB1nkCBAIEgfYEgfMA8QB3AH1ZHhLheCp7HGFnfF79+NCHXBSgTpWeuQMv2Q6MLnm4AAABkxr8jmEAAAQDAEgwRgIhAN3zFWpH8Rq1TkGjy8FiFac/ap8l42fX2mULWf58aVDOAiEA3WEGF9381Fh6kxqbTg64p/CnXEwW+WhTmWfDG2yfPNMAdgDPEVbu1S58r/OHW9lpLpvpGnFnSrAX7KwB0lt3zsw7CAAAAZMa/I6ZAAAEAwBHMEUCIEoxnvhSP5g5zxFk0qeacoCa842LUqqcZgrU6Hsc+nqjAiEAiq+SONBRRyn4ONX21Lw/Mhzt3ApCQhBO10vhoE8BqfcwCgYIKoZIzj0EAwMDaAAwZQIwPpPDJpz6RridDdGO2GGpt6jr/lOh0Un3l/YwpXVTwHT0jZsrF1CqRDT5WC0ZVhH7AjEAz9qoK87KPFCJA9wMsQt9xHQwfDNS+j3xV327DfteACIcwP50AzJ5yJ9Zk9gYcBCh",
         "e": "AQAB",
         "alg": "PS256",
-        "x5u": "https://www.delta-dao.com/.well-known/certificate-chain-2024.crt"
+        "x5u": "https://cooperants.planthaber.de/.well-known/chain.pem"
       }
     }
   ],
   "assertionMethod": [
-    "did:web:delta-dao.com#JWK2020-RSA"
+    "did:web:cooperants.planthaber.de#JWK2020-RSA"
   ]
 }
