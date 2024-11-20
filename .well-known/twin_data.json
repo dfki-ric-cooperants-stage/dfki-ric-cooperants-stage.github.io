@@ -1,0 +1,40 @@
+{
+    "@context": [
+      "https://www.w3.org/2018/credentials/v1",
+      "https://w3id.org/security/suites/jws-2020/v1",
+      "https://registry.lab.gaia-x.eu/development/api/trusted-shape-registry/v1/shapes/jsonld/trustframework#"
+    ],
+    "type": [
+      "VerifiableCredential"
+    ],
+    "id": "https://cooperants.planthaber.de/.well-known/twin_data.json",
+    "issuer": "did:web:cooperants.planthaber.de",
+    "issuanceDate": "2024-11-20T15:31:10.523Z",
+    "credentialSubject": {
+      "@type": "gx:DataResource",
+      "gx:name": "Cooperants robotic digital twin Demo Data",
+      "gx:description": "Contains database save of robotic digital twin service",
+      "gx:containsPII": false,
+      "gx:policy": "default: allow",
+      "gx:license": "BSD 3-Clause",
+      "gx:copyrightOwnedBy": "original owner",
+      "gx:producedBy": {
+        "@id": "https://cooperants.planthaber.de/.well-known/2210_gx_compliance_participant_DFKI.json"
+      },
+      "gx:exposedThrough": {
+        "@id": "https://cooperants.planthaber.de/.well-known/twin_data.json"
+      },
+      "id": "https://cooperants.planthaber.de/.well-known/twin_data.json"
+    },
+    "proof": {
+      "type": "JsonWebSignature2020",
+      "created": "2024-11-20T16:31:10.537+01:00",
+      "proofPurpose": "assertionMethod",
+      "verificationMethod": "did:web:delta-dao.com#JWK2020-RSA",
+      "@context": [
+        "https://www.w3.org/2018/credentials/v1",
+        "https://w3id.org/security/suites/jws-2020/v1"
+      ],
+      "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..YtTkSLOGesPsZw7a1v4kryutJelfnHSsdodPLOEFiGNOoNJVk4oeAcJKNaBnG2ESMevOklWRXLUfXavUOOei_73V78B4wpxhWFeeahZvEildacCsWXin_9PrmwL6EYdBxjs6IEolaI4sbCR8wCKLvkvrSYpeJGf5AyGS4w3YmbToZxMRYkfpxBDuid7AN2Ay8nCttcRyU58v5iJQAWFz2chOqGia1OBfRQMW9ou6Hqmr5Z9H-uHvFGrDzQQpuu0kXGn03Py0RU8Z2gtbqrkzX9RNVGJXZh70HvpoeasS8KYpvEuQqfTNYJRrkDzmvfbTk7SY9gQj9kqn2Q3m1g_Juw"
+    }
+  }
