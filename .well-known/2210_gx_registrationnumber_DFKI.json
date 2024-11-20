@@ -16,16 +16,23 @@
       "gx:leiCode-countryCode": "DE",
       "gx:leiCode-subdivisionCountryCode": "DE-RP"
     },
-    "issuanceDate": "2024-11-20T13:41:38.505Z",
+    "evidence": [
+      {
+        "gx:evidenceURL": "https://api.gleif.org/api/v1/lei-records/",
+        "gx:executionDate": "2024-09-24T12:56:42.969Z",
+        "gx:evidenceOf": "gx:leiCode"
+      }
+    ],
+    "issuanceDate": "2024-11-20T13:48:56.454Z",
     "proof": {
       "type": "JsonWebSignature2020",
-      "created": "2024-11-20T14:41:38.514+01:00",
+      "created": "2024-11-20T14:48:56.464+01:00",
       "proofPurpose": "assertionMethod",
       "verificationMethod": "did:web:www.delta-dao.com:compliance:v1#X509-JWK2020",
       "@context": [
         "https://www.w3.org/2018/credentials/v1",
         "https://w3id.org/security/suites/jws-2020/v1"
       ],
-      "jws": "eyJhbGciOiJFUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..t_R9kowTINeEFxBh49Q1xRcnyBIVW7X0M9wCkxFLjXhc1IAGh_RjuWP3Ka2I6vx5n50880xt3XrD1kXR_-wuhw"
+      "jws": "eyJhbGciOiJFUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..AaILzsHOnrDSV5d7byKIfP4KpwPtRC6CcJolIoIHUvZzVj1IivhTg5t3PidkqrVpJDBppAEdupE5tRheTOvZYw"
     }
   }
