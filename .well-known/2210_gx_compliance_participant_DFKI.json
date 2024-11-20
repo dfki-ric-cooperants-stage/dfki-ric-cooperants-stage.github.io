@@ -1,113 +1,121 @@
 {
-    "@context": "https://www.w3.org/2018/credentials/v1",
-    "type": "VerifiablePresentation",
-    "verifiableCredential": [
-      {
+  "@context": "https://www.w3.org/2018/credentials/v1",
+  "type": "VerifiablePresentation",
+  "verifiableCredential": [
+    {
+      "@context": [
+        "https://www.w3.org/2018/credentials/v1",
+        "https://w3id.org/security/suites/jws-2020/v1",
+        "https://registry.lab.gaia-x.eu/development/api/trusted-shape-registry/v1/shapes/jsonld/trustframework#"
+      ],
+      "type": "VerifiableCredential",
+      "issuanceDate": "2024-11-20T15:05:39.399Z",
+      "credentialSubject": {
+        "@context": "https://registry.lab.gaia-x.eu/development/api/trusted-shape-registry/v1/shapes/jsonld/trustframework#",
+        "type": "gx:GaiaXTermsAndConditions",
+        "gx:termsAndConditions": "The PARTICIPANT signing the Self-Description agrees as follows:\n- to update its descriptions about any changes, be it technical, organizational, or legal - especially but not limited to contractual in regards to the indicated attributes present in the descriptions.\n\nThe keypair used to sign Verifiable Credentials will be revoked where Gaia-X Association becomes aware of any inaccurate statements in regards to the claims which result in a non-compliance with the Trust Framework and policy rules defined in the Policy Rules and Labelling Document (PRLD).",
+        "id": "https://cooperants.planthaber.de/.well-known/2210_gx_tandc_DFKI.json"
+      },
+      "issuer": "did:web:cooperants.planthaber.de",
+      "id": "https://cooperants.planthaber.de/.well-known/2210_gx_tandc_DFKI.json",
+      "proof": {
+        "type": "JsonWebSignature2020",
+        "created": "2024-11-20T16:05:39.415+01:00",
+        "proofPurpose": "assertionMethod",
+        "verificationMethod": "did:web:delta-dao.com#JWK2020-RSA",
         "@context": [
           "https://www.w3.org/2018/credentials/v1",
           "https://w3id.org/security/suites/jws-2020/v1"
         ],
-        "type": [
-          "VerifiableCredential"
-        ],
-        "id": "https://cooperants.planthaber.de/.well-known/2210_gx_registrationnumber_DFKI.json",
-        "issuer": "did:web:www.delta-dao.com:notary:v1",
-        "issuanceDate": "2024-09-24T12:56:42.969Z",
-        "credentialSubject": {
-          "@context": "https://registry.lab.gaia-x.eu/development/api/trusted-shape-registry/v1/shapes/jsonld/trustframework#",
-          "type": "gx:legalRegistrationNumber",
-          "id": "https://cooperants.planthaber.de/.well-known/2210_gx_registrationnumber_DFKI.json",
-          "gx:leiCode": "3912001EOIALNFMEBT29",
-          "gx:leiCode-countryCode": "DE",
-          "gx:leiCode-subdivisionCountryCode": "DE-RP"
-        },
-        "proof": {
-          "type": "JsonWebSignature2020",
-          "created": "2024-11-20T13:49:42.140+01:00",
-          "proofPurpose": "assertionMethod",
-          "verificationMethod": "did:web:www.delta-dao.com:compliance:v1#X509-JWK2020",
-          "@context": [
-            "https://www.w3.org/2018/credentials/v1",
-            "https://w3id.org/security/suites/jws-2020/v1"
-          ],
-          "jws": "eyJhbGciOiJFUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..yQiSpJy8Dv-w04GHwLsA6PKpaij7BKWbz6lzvUbJrsVpmeVkZ9ez9L_UJFwB9GjncUCevpV-i0JvA27LE4zBfw"
-        }
-      },
-      {
-        "@context": [
-          "https://www.w3.org/2018/credentials/v1",
-          "https://w3id.org/security/suites/jws-2020/v1",
-          "https://registry.lab.gaia-x.eu/development/api/trusted-shape-registry/v1/shapes/jsonld/trustframework#"
-        ],
-        "type": "VerifiableCredential",
-        "credentialSubject": {
-          "gx:termsAndConditions": "The PARTICIPANT signing the Self-Description agrees as follows:\n- to update its descriptions about any changes, be it technical, organizational, or legal - especially but not limited to contractual in regards to the indicated attributes present in the descriptions.\n\nThe keypair used to sign Verifiable Credentials will be revoked where Gaia-X Association becomes aware of any inaccurate statements in regards to the claims which result in a non-compliance with the Trust Framework and policy rules defined in the Policy Rules and Labelling Document (PRLD).",
-          "type": "gx:GaiaXTermsAndConditions",
-          "id": "https://cooperants.planthaber.de/.well-known/2210_gx_tandc_DFKI.json"
-        },
-        "issuer": "did:web:delta-dao.com",
-        "id": "https://cooperants.planthaber.de/.well-known/2210_gx_tandc_DFKI.json",
-        "issuanceDate": "2024-11-20T12:42:22.695Z",
-        "proof": {
-          "type": "JsonWebSignature2020",
-          "created": "2024-11-20T13:42:22.706+01:00",
-          "proofPurpose": "assertionMethod",
-          "verificationMethod": "did:web:www.delta-dao.com:compliance:v1#X509-JWK2020",
-          "@context": [
-            "https://www.w3.org/2018/credentials/v1",
-            "https://w3id.org/security/suites/jws-2020/v1"
-          ],
-          "jws": "eyJhbGciOiJFUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..Xk7UUCmGtnIfE2PVfVGp9Pe-0rPfUqwUQ9EchyuHBRsvz6Eslo4S8PJuV62uRbnaSiKAob2mL-gXq8LXLxoTFA"
-        }
-      },
-      {
-        "@context": [
-          "https://www.w3.org/2018/credentials/v1",
-          "https://w3id.org/security/suites/jws-2020/v1",
-          "https://registry.lab.gaia-x.eu/development/api/trusted-shape-registry/v1/shapes/jsonld/trustframework#"
-        ],
-        "type": [
-          "VerifiableCredential"
-        ],
-        "id": "https://cooperants.planthaber.de/.well-known/2210_gx_participant_DFKI.json",
-        "issuer": "did:web:delta-dao.com",
-        "issuanceDate": "2024-11-20T13:03:42.396Z",
-        "credentialSubject": {
-          "gx:name": "DFKI",
-          "gx:legalName": "Deutsches Forschungszentrum für Künstliche Intelligenz GmbH",
-          "gx:legalRegistrationNumber": {
-            "id": "https://cooperants.planthaber.de/.well-known/2210_gx_registrationnumber_DFKI.json"
-          },
-          "gx:headquarterAddress": {
-            "gx:countrySubdivisionCode": "DE-RP",
-            "gx:addressCountryCode": "DE",
-            "gx:streetAddress": "Trippstadter Str. 122",
-            "gx:postalCode": "67663",
-            "gx:locality": "Kaiserslautern"
-          },
-          "gx:legalAddress": {
-            "gx:countrySubdivisionCode": "DE-RP",
-            "gx:addressCountryCode": "DE",
-            "gx:streetAddress": "Trippstadter Str. 122",
-            "gx:postalCode": "67663",
-            "gx:locality": "Kaiserslautern"
-          },
-          "gx:website": "https://www.dfki.de/en/web",
-          "type": "gx:LegalParticipant",
-          "gx-terms-and-conditions:gaiaxTermsAndConditions": "70c1d713215f95191a11d38fe2341faed27d19e083917bc8732ca4fea4976700",
-          "id": "https://cooperants.planthaber.de/.well-known/2210_gx_participant_DFKI.json"
-        },
-        "proof": {
-          "type": "JsonWebSignature2020",
-          "created": "2024-11-20T14:03:42.406+01:00",
-          "proofPurpose": "assertionMethod",
-          "verificationMethod": "did:web:www.delta-dao.com:compliance:v1#X509-JWK2020",
-          "@context": [
-            "https://www.w3.org/2018/credentials/v1",
-            "https://w3id.org/security/suites/jws-2020/v1"
-          ],
-          "jws": "eyJhbGciOiJFUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..NneuObnP-NhwoVKIfcNsotsOa8-ofHBjHeEo5kQWd1RYcN8Nak71GVEjh3ykaS6lRawuzFEVV7XzLjHkCp7qNw"
-        }
+        "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..bW_JdzQf9JSPHr3f9V-GkdO7pAvNhdDSIPiuuqEpvbu33ropw8V4x7XbzfGKKqi6hWdUDeqBwhesi8SlNYdjKFpeGytOPgUHqD0ml8fZFApCzPPvtAUEPofhAaQ3gzUkTcSvYhif1d9dA9Dj9l2HHRVLSzzhBHaTzGMDCexSWR7pCz6skRbtVysmNMqdd2A-IAuKSxyJnOxBAbBQIxajSxLi16naHyZbjDxyG9To3WGR1h9mm6aU-r_4xRJwBCep5pa63jURtR95rtk9tJQHJc2xcTFGKZVn18ObNVQPB7m6QSkqUN51yj-s1Fz9nHyPVd9JVSWctI83NHJB7FQtOQ"
       }
-    ]
-  }
+    },
+    {
+      "@context": [
+        "https://www.w3.org/2018/credentials/v1",
+        "https://w3id.org/security/suites/jws-2020/v1",
+        "https://registry.lab.gaia-x.eu/development/api/trusted-shape-registry/v1/shapes/jsonld/trustframework#"
+      ],
+      "type": [
+        "VerifiableCredential"
+      ],
+      "id": "https://cooperants.planthaber.de/.well-known/2210_gx_participant_DFKI.json",
+      "issuer": "did:web:cooperants.planthaber.de",
+      "issuanceDate": "2024-11-20T15:05:57.904Z",
+      "credentialSubject": {
+        "gx:name": "DFKI",
+        "gx:legalName": "Deutsches Forschungszentrum für Künstliche Intelligenz GmbH",
+        "gx:legalRegistrationNumber": {
+          "id": "https://cooperants.planthaber.de/.well-known/2210_gx_registrationnumber_DFKI.json"
+        },
+        "gx:headquarterAddress": {
+          "gx:countrySubdivisionCode": "DE-RP",
+          "gx:addressCountryCode": "DE",
+          "gx:streetAddress": "Trippstadter Str. 122",
+          "gx:postalCode": "67663",
+          "gx:locality": "Kaiserslautern"
+        },
+        "gx:legalAddress": {
+          "gx:countrySubdivisionCode": "DE-RP",
+          "gx:addressCountryCode": "DE",
+          "gx:streetAddress": "Trippstadter Str. 122",
+          "gx:postalCode": "67663",
+          "gx:locality": "Kaiserslautern"
+        },
+        "gx:website": "https://www.dfki.de/en/web",
+        "type": "gx:LegalParticipant",
+        "gx-terms-and-conditions:gaiaxTermsAndConditions": "70c1d713215f95191a11d38fe2341faed27d19e083917bc8732ca4fea4976700",
+        "id": "https://cooperants.planthaber.de/.well-known/2210_gx_participant_DFKI.json"
+      },
+      "proof": {
+        "type": "JsonWebSignature2020",
+        "created": "2024-11-20T16:05:57.912+01:00",
+        "proofPurpose": "assertionMethod",
+        "verificationMethod": "did:web:delta-dao.com#JWK2020-RSA",
+        "@context": [
+          "https://www.w3.org/2018/credentials/v1",
+          "https://w3id.org/security/suites/jws-2020/v1"
+        ],
+        "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..AcPvCcizFRThX-uJvBfl3402GVW9AF3YwqAoA2bePQNdZ8Hb1OjmWYTLUoumc6jwNoAbfO6lCHfW2k_IilwFAKyS4bkkXN6ay91zruNx0udbtbA8APQgtIAvSbec5PLx6m9vjdfMzPZQgfm0a3gF-KRngY3gAjhG7LNEafIHsnS9s4ckhl-BYajnjrB5LcKVvlFoqFLkpj7m8EVQtv8Uwcg0aFZe888YLDKDhbvjsV3Zlcj30uAJE7AnGR0te3ORlTPWRk0O9INJRNlsdV8YxxoZ3DpiP8NwShYqqLRY3IZnoyihvJ2yr3q5U_5OuoAlz_IwS_-vTrlOfXH43vkXRw"
+      }
+    },
+    {
+      "@context": [
+        "https://www.w3.org/2018/credentials/v1",
+        "https://w3id.org/security/suites/jws-2020/v1"
+      ],
+      "type": [
+        "VerifiableCredential"
+      ],
+      "id": "https://cooperants.planthaber.de/.well-known/2210_gx_registrationnumber_DFKI.json",
+      "issuer": "did:web:cooperants.planthaber.de",
+      "credentialSubject": {
+        "@context": "https://registry.lab.gaia-x.eu/development/api/trusted-shape-registry/v1/shapes/jsonld/trustframework#",
+        "type": "gx:legalRegistrationNumber",
+        "id": "https://cooperants.planthaber.de/.well-known/2210_gx_registrationnumber_DFKI.json",
+        "gx:leiCode": "3912001EOIALNFMEBT29",
+        "gx:leiCode-countryCode": "DE",
+        "gx:leiCode-subdivisionCountryCode": "DE-RP"
+      },
+      "evidence": [
+        {
+          "gx:evidenceURL": "https://api.gleif.org/api/v1/lei-records/",
+          "gx:executionDate": "2024-09-24T12:56:42.969Z",
+          "gx:evidenceOf": "gx:leiCode"
+        }
+      ],
+      "issuanceDate": "2024-11-20T15:05:48.145Z",
+      "proof": {
+        "type": "JsonWebSignature2020",
+        "created": "2024-11-20T16:05:48.158+01:00",
+        "proofPurpose": "assertionMethod",
+        "verificationMethod": "did:web:delta-dao.com#JWK2020-RSA",
+        "@context": [
+          "https://www.w3.org/2018/credentials/v1",
+          "https://w3id.org/security/suites/jws-2020/v1"
+        ],
+        "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..Td70PKuocItVOoaZWIibb9JJG0K0lwOMVv1RbeV4L452J2QymVAQDt2nzsGU0ZYqfizxZpczXPoLfA1U-ogq_8_B-J3JBHs1AkQF5Eci_Dy9Q2er1wtFyrp3iWdUVAlLhZc8Mi-A-EJEjfA1sCRkXG8zV8ARNKd5qiJf8_q7BJeg_Bmk-0USFWdUZhZTRHfuLE7djW8bwfz1idJdYuY87G4467nVoHead06eGOUai-K7oU-OtDxZX75Jiwu-Cfmghqsl3btQ1kkuuxDG55vzaxWzIip9EnC_l4Tpi_rNPaQsCiP3o4bLe4rrSw-UOUixpYSyxQ_kvDY2sbo-RGjI4Q"
+      }
+    }
+  ]
+}
