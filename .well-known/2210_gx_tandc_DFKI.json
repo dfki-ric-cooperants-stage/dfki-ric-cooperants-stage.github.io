@@ -12,16 +12,16 @@
     },
     "issuer": "did:web:delta-dao.com",
     "id": "https://cooperants.planthaber.de/.well-known/2210_gx_tandc_DFKI.json",
-    "issuanceDate": "2024-11-20T13:52:52.734Z",
+    "issuanceDate": "2024-11-20T13:56:37.211Z",
     "proof": {
       "type": "JsonWebSignature2020",
-      "created": "2024-11-20T14:52:52.746+01:00",
+      "created": "2024-11-20T14:56:37.221+01:00",
       "proofPurpose": "assertionMethod",
       "verificationMethod": "did:web:www.delta-dao.com:compliance:v1#X509-JWK2020",
       "@context": [
         "https://www.w3.org/2018/credentials/v1",
         "https://w3id.org/security/suites/jws-2020/v1"
       ],
-      "jws": "eyJhbGciOiJFUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..7tfwph4rnnHBs8NiBadHCnRn6F7Sj5jy1XarBIlOzQwdWY2LJ78cVNxm6nav-ZIZ2IwjzBtMtpL4atkLPh7qPA"
+      "jws": "eyJhbGciOiJFUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..bjsp5JH0wLtO3OTUU642Hz79-YdzuFLMAsOW1rX1A_vlkKi4LpR5bY9f5UDLMpqVjpiyDPK6E9c9v9y0eD6Pjw"
     }
   }
