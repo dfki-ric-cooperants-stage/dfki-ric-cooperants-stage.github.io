@@ -23,16 +23,16 @@
         "gx:evidenceOf": "gx:leiCode"
       }
     ],
-    "issuanceDate": "2024-11-20T14:05:35.509Z",
+    "issuanceDate": "2024-11-20T14:28:11.856Z",
     "proof": {
       "type": "JsonWebSignature2020",
-      "created": "2024-11-20T15:05:35.515+01:00",
+      "created": "2024-11-20T15:28:11.868+01:00",
       "proofPurpose": "assertionMethod",
-      "verificationMethod": "did:web:www.delta-dao.com:compliance:v1#X509-JWK2020",
+      "verificationMethod": "did:web:delta-dao.com#JWK2020-RSA",
       "@context": [
         "https://www.w3.org/2018/credentials/v1",
         "https://w3id.org/security/suites/jws-2020/v1"
       ],
-      "jws": "eyJhbGciOiJFUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..5BSD3LvobU9novE0XFaWfoZSEWipn3vvZqqJJt6IKZ5vXspseEf9eOK0YGriHX8Uv7AxaG84XpttTN4PbYV3Lg"
+      "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..RuRTG6dmCpSyMCW527XcwGAJzSfQkGNMHqF8mQCOyev8e2-XTQVmVpAhLN4OOmUe2JYbakN7CLSHoLXRoAVLM0zuandKzinp2aZrJI7PhkX7f6t6CBGCUA4VixMV38Y6G3qIVkhMapHOg21FzHHyAFXgPRQyfk0X8nN9Z7qToS1ty725uUyXsJmPHo43qxFQKNIG3sYbCZ5H0IQKjVA5UAnDBYDvZ5OHr_rlCO4VjaW6XZIDtLnjRlhYTvxNsercmbKJThaJ2yacqZC6YzfZzZhPTvfXG2ID_9IwhysJ59cD1gHXh4b7UcIDLjoCytKlJOzSWSGk--p4cTaYyZhtfVWdNn86ntWO-bn8ZiLvUJXRa-nWNKqKESaYizDyNyhB-OWh2OYt7dr6Wg6MNY4TA0h9KhO765zv7e5iCX2zAPk8wa96Di1j9yUIWXU2hyMwLwxG7FEtKfhdImHbSDBfQkV39Y6lFkh-PLvmvqFcPwPQmOHFOz7gUx1CCsXjHw-Tqbw_BvLfX11ev4XBkuBRxyIGvavxV242rhJ5_ca1_IDm2_zEVwCyZmN7Fl7jTYwtmwZGxDZVadcQmLmMRteqJsN3nnUStnJw5uLHkDJl5NXMhgua2bij3KfMCLa5QJi7Z-CDjSxPkXpp-Mac4yiTQGrqg68Au85VfR5_fY1_BWA"
     }
   }
