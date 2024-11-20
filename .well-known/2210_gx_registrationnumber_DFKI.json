@@ -7,7 +7,7 @@
       "VerifiableCredential"
     ],
     "id": "https://cooperants.planthaber.de/.well-known/2210_gx_registrationnumber_DFKI.json",
-    "issuer": "did:web:www.delta-dao.com",
+    "issuer": "did:web:cooperants.planthaber.de",
     "credentialSubject": {
       "@context": "https://registry.lab.gaia-x.eu/development/api/trusted-shape-registry/v1/shapes/jsonld/trustframework#",
       "type": "gx:legalRegistrationNumber",
@@ -23,16 +23,16 @@
         "gx:evidenceOf": "gx:leiCode"
       }
     ],
-    "issuanceDate": "2024-11-20T14:55:55.285Z",
+    "issuanceDate": "2024-11-20T15:05:48.145Z",
     "proof": {
       "type": "JsonWebSignature2020",
-      "created": "2024-11-20T15:55:55.293+01:00",
+      "created": "2024-11-20T16:05:48.158+01:00",
       "proofPurpose": "assertionMethod",
       "verificationMethod": "did:web:delta-dao.com#JWK2020-RSA",
       "@context": [
         "https://www.w3.org/2018/credentials/v1",
         "https://w3id.org/security/suites/jws-2020/v1"
       ],
-      "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..j0uQpIpF0zcJBR0N-KSqTHABtvIYbiI25ytpofGK51ghe1YidZMtDqFNlTIKZ2ERnRnPRWldXn8VhEI12RD9LY5c1xopdQ9CdBwj3uqXZAM9i3_EYo1rx6sAwJOq5yXmAqMMf4cvmmFi-Kg6vFXDzbKiI61pMaSk53wEuZ2gRrV5QO-0Z4qfguWzXlsH0HJl59ZW59qGuy_PA6nRTOlL8gvU8HbppcN8l4mjGf6qeCCRT6gZE-6-eXURVCQxqtzu-j6maiwsA5csM6Ql-dZaq3jl7InKvrL_Xr5H4GrPewRCe_firg80wMjVzBz5DdJZBatnd46ckvaW7zT-_bKyYw"
+      "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..Td70PKuocItVOoaZWIibb9JJG0K0lwOMVv1RbeV4L452J2QymVAQDt2nzsGU0ZYqfizxZpczXPoLfA1U-ogq_8_B-J3JBHs1AkQF5Eci_Dy9Q2er1wtFyrp3iWdUVAlLhZc8Mi-A-EJEjfA1sCRkXG8zV8ARNKd5qiJf8_q7BJeg_Bmk-0USFWdUZhZTRHfuLE7djW8bwfz1idJdYuY87G4467nVoHead06eGOUai-K7oU-OtDxZX75Jiwu-Cfmghqsl3btQ1kkuuxDG55vzaxWzIip9EnC_l4Tpi_rNPaQsCiP3o4bLe4rrSw-UOUixpYSyxQ_kvDY2sbo-RGjI4Q"
     }
   }

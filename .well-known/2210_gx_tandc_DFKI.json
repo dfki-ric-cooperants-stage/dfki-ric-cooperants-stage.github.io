@@ -5,24 +5,24 @@
       "https://registry.lab.gaia-x.eu/development/api/trusted-shape-registry/v1/shapes/jsonld/trustframework#"
     ],
     "type": "VerifiableCredential",
-    "issuanceDate": "2024-11-20T14:55:43.846Z",
+    "issuanceDate": "2024-11-20T15:05:39.399Z",
     "credentialSubject": {
       "@context": "https://registry.lab.gaia-x.eu/development/api/trusted-shape-registry/v1/shapes/jsonld/trustframework#",
       "type": "gx:GaiaXTermsAndConditions",
       "gx:termsAndConditions": "The PARTICIPANT signing the Self-Description agrees as follows:\n- to update its descriptions about any changes, be it technical, organizational, or legal - especially but not limited to contractual in regards to the indicated attributes present in the descriptions.\n\nThe keypair used to sign Verifiable Credentials will be revoked where Gaia-X Association becomes aware of any inaccurate statements in regards to the claims which result in a non-compliance with the Trust Framework and policy rules defined in the Policy Rules and Labelling Document (PRLD).",
       "id": "https://cooperants.planthaber.de/.well-known/2210_gx_tandc_DFKI.json"
     },
-    "issuer": "did:web:delta-dao.com",
+    "issuer": "did:web:cooperants.planthaber.de",
     "id": "https://cooperants.planthaber.de/.well-known/2210_gx_tandc_DFKI.json",
     "proof": {
       "type": "JsonWebSignature2020",
-      "created": "2024-11-20T15:55:43.859+01:00",
+      "created": "2024-11-20T16:05:39.415+01:00",
       "proofPurpose": "assertionMethod",
       "verificationMethod": "did:web:delta-dao.com#JWK2020-RSA",
       "@context": [
         "https://www.w3.org/2018/credentials/v1",
         "https://w3id.org/security/suites/jws-2020/v1"
       ],
-      "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..SbnqfBr81jYPYl0bSI3-E4TGf9UM5b1xw4bAsjc__IvofGzKEslf6ui2HoXL-gWiRb0LXYnudwSny55WOAl9Dfg6V_JbVWHjo1H4mQASrd6fbaZx2tjPsK3iB56tXyd-ZgqKvElADoqwhkKYiFPJZgNWnhkIHcKuNrHdknUyYjP5FD9vQdXH7o4k1f5xgKViA7eRsCZeOVcgi1fqIoHK0lPL3HY6YPhvLClItX8eOEgxwwSSdOFy2AT3CHjCYvDDS1d62Gi-Eb9oGIg0SoAvdoo4tpyQSJ-VJwUUZnOrT3MjtVV4nk6O8fP5-QQM4UvUUj4SY_f-_NQ_Le2Ai6q_JQ"
+      "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..bW_JdzQf9JSPHr3f9V-GkdO7pAvNhdDSIPiuuqEpvbu33ropw8V4x7XbzfGKKqi6hWdUDeqBwhesi8SlNYdjKFpeGytOPgUHqD0ml8fZFApCzPPvtAUEPofhAaQ3gzUkTcSvYhif1d9dA9Dj9l2HHRVLSzzhBHaTzGMDCexSWR7pCz6skRbtVysmNMqdd2A-IAuKSxyJnOxBAbBQIxajSxLi16naHyZbjDxyG9To3WGR1h9mm6aU-r_4xRJwBCep5pa63jURtR95rtk9tJQHJc2xcTFGKZVn18ObNVQPB7m6QSkqUN51yj-s1Fz9nHyPVd9JVSWctI83NHJB7FQtOQ"
     }
   }
