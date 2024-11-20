@@ -9,7 +9,7 @@
   ],
   "id": "https://cooperants.planthaber.de/.well-known/2210_gx_participant_DFKI.json",
   "issuer": "did:web:delta-dao.com",
-  "issuanceDate": "2024-11-20T13:03:42.396Z",
+  "issuanceDate": "2024-11-20T14:45:30.574Z",
   "credentialSubject": {
     "gx:name": "DFKI",
     "gx:legalName": "Deutsches Forschungszentrum für Künstliche Intelligenz GmbH",
@@ -37,13 +37,13 @@
   },
   "proof": {
     "type": "JsonWebSignature2020",
-    "created": "2024-11-20T14:03:42.406+01:00",
+    "created": "2024-11-20T15:45:30.587+01:00",
     "proofPurpose": "assertionMethod",
-    "verificationMethod": "did:web:www.delta-dao.com:compliance:v1#X509-JWK2020",
+    "verificationMethod": "did:web:delta-dao.com#JWK2020-RSA",
     "@context": [
       "https://www.w3.org/2018/credentials/v1",
       "https://w3id.org/security/suites/jws-2020/v1"
     ],
-    "jws": "eyJhbGciOiJFUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..NneuObnP-NhwoVKIfcNsotsOa8-ofHBjHeEo5kQWd1RYcN8Nak71GVEjh3ykaS6lRawuzFEVV7XzLjHkCp7qNw"
+    "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..ZTfPXG9NwOzGYtJqntFJr5dlYoa47u6kb9cj3Zfvwn7kGgWiFYeQy7N_mIWmDlgmfGEC_HvZ_kpQPfPPK4uSMCtvjeb7PrREFWMcbdnZauSvFUkv4teHeLi3oQImNHrCjPdtLKF5bjIVNnLzfWkPAo2HBYLItZjNo1RkqDVvrQcGcagm9LUo2kYInN-r9Ud-hlyGCkonv2Bs0mcl9QhPTbyAQjsjCQrUPWc0cBM5ou3xTADOmRMtqJW7c0QWLQk2ygjv6qy3TWK07mXZg_5vSRyMdiub5u0rKlOV08wtjdE78zgEfjQ_C_578MoYvITiw6yA645gbsEueBZf0LkzVX2WZ3B7ViuM9T_AWfjUd2zsqFzgCBBS1uMkeqicVq9bQSq41FV6LpC0m_HjpjLo4GYPFJIEJabB3DYIhTJ4v5zejWCDdcg0UglvTgHSY9a4UklMMLTf_hxeQBxHzSw6zShwBXlGFn95aTIlvxo60euDJm4JuWHxNyQtubt3fmhnirzuZIQDRH7aq_dt-8ZsL3pwyAYr9rqACM-ECzMZa5veQI4zBG3IUj77FGQZJLVEJX6Nqe5oa8iyK1WueGO8jhxOfMiRqz41XI5Rr7KnB0kaeAtUrtVJ3dAEtcwEiO-7mpXedT7Kt2HooZn_3Nxa7n5Lg1Jdrh6SpvkPecOzjVI"
   }
 }
