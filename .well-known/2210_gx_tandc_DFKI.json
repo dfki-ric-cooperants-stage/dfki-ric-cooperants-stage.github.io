@@ -5,23 +5,24 @@
       "https://registry.lab.gaia-x.eu/development/api/trusted-shape-registry/v1/shapes/jsonld/trustframework#"
     ],
     "type": "VerifiableCredential",
+    "issuanceDate": "2024-11-20T14:12:26.878Z",
     "credentialSubject": {
-      "gx:termsAndConditions": "The PARTICIPANT signing the Self-Description agrees as follows:\n- to update its descriptions about any changes, be it technical, organizational, or legal - especially but not limited to contractual in regards to the indicated attributes present in the descriptions.\n\nThe keypair used to sign Verifiable Credentials will be revoked where Gaia-X Association becomes aware of any inaccurate statements in regards to the claims which result in a non-compliance with the Trust Framework and policy rules defined in the Policy Rules and Labelling Document (PRLD).",
+      "@context": "https://registry.lab.gaia-x.eu/development/api/trusted-shape-registry/v1/shapes/jsonld/trustframework#",
       "type": "gx:GaiaXTermsAndConditions",
+      "gx:termsAndConditions": "The PARTICIPANT signing the Self-Description agrees as follows:\n- to update its descriptions about any changes, be it technical, organizational, or legal - especially but not limited to contractual in regards to the indicated attributes present in the descriptions.\n\nThe keypair used to sign Verifiable Credentials will be revoked where Gaia-X Association becomes aware of any inaccurate statements in regards to the claims which result in a non-compliance with the Trust Framework and policy rules defined in the Policy Rules and Labelling Document (PRLD).",
       "id": "https://cooperants.planthaber.de/.well-known/2210_gx_tandc_DFKI.json"
     },
     "issuer": "did:web:delta-dao.com",
     "id": "https://cooperants.planthaber.de/.well-known/2210_gx_tandc_DFKI.json",
-    "issuanceDate": "2024-11-20T13:56:37.211Z",
     "proof": {
       "type": "JsonWebSignature2020",
-      "created": "2024-11-20T14:56:37.221+01:00",
+      "created": "2024-11-20T15:12:26.887+01:00",
       "proofPurpose": "assertionMethod",
       "verificationMethod": "did:web:www.delta-dao.com:compliance:v1#X509-JWK2020",
       "@context": [
         "https://www.w3.org/2018/credentials/v1",
         "https://w3id.org/security/suites/jws-2020/v1"
       ],
-      "jws": "eyJhbGciOiJFUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..bjsp5JH0wLtO3OTUU642Hz79-YdzuFLMAsOW1rX1A_vlkKi4LpR5bY9f5UDLMpqVjpiyDPK6E9c9v9y0eD6Pjw"
+      "jws": "eyJhbGciOiJFUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..Tz1kA0ygo2hGIeidlYtSiaQXz35Q-P03MsOhCE0GBt8G1E_4nWxp-wZekxEtva5Q54yy4s-aEbgsit77cQmDPQ"
     }
   }
