@@ -8,17 +8,17 @@
     {
       "id": "did:web:delta-dao.com#JWK2020-RSA",
       "type": "JsonWebKey2020",
-      "controller": "did:web:cooperants.planthaber.de",
+      "controller": "did:web:delta-dao.com",
       "publicKeyJwk": {
         "kty": "RSA",
         "n": "MIIDkjCCAxigAwIBAgISAzvK1HUADA9fjs8PT6qbMTKEMAoGCCqGSM49BAMDMDIxCzAJBgNVBAYTAlVTMRYwFAYDVQQKEw1MZXQncyBFbmNyeXB0MQswCQYDVQQDEwJFNTAeFw0yNDExMTExMDMxMDlaFw0yNTAyMDkxMDMxMDhaMCMxITAfBgNVBAMTGGNvb3BlcmFudHMucGxhbnRoYWJlci5kZTBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABIyrnps1FNJiFDxAMzWZSnFlGPDEAiHl+unTOJmhXUh189qRg5ykcmKYSt90p3XJDEKcIDbBfqExHO2965azNZujggIbMIICFzAOBgNVHQ8BAf8EBAMCB4AwHQYDVR0lBBYwFAYIKwYBBQUHAwEGCCsGAQUFBwMCMAwGA1UdEwEB/wQCMAAwHQYDVR0OBBYEFG3S21tteeoJ1ofzwlR3RD6WM3FcMB8GA1UdIwQYMBaAFJ8rX888IU+dBLftKyzExnCL0tcNMFUGCCsGAQUFBwEBBEkwRzAhBggrBgEFBQcwAYYVaHR0cDovL2U1Lm8ubGVuY3Iub3JnMCIGCCsGAQUFBzAChhZodHRwOi8vZTUuaS5sZW5jci5vcmcvMCMGA1UdEQQcMBqCGGNvb3BlcmFudHMucGxhbnRoYWJlci5kZTATBgNVHSAEDDAKMAgGBmeBDAECATCCAQUGCisGAQQB1nkCBAIEgfYEgfMA8QB3AH1ZHhLheCp7HGFnfF79+NCHXBSgTpWeuQMv2Q6MLnm4AAABkxr8jmEAAAQDAEgwRgIhAN3zFWpH8Rq1TkGjy8FiFac/ap8l42fX2mULWf58aVDOAiEA3WEGF9381Fh6kxqbTg64p/CnXEwW+WhTmWfDG2yfPNMAdgDPEVbu1S58r/OHW9lpLpvpGnFnSrAX7KwB0lt3zsw7CAAAAZMa/I6ZAAAEAwBHMEUCIEoxnvhSP5g5zxFk0qeacoCa842LUqqcZgrU6Hsc+nqjAiEAiq+SONBRRyn4ONX21Lw/Mhzt3ApCQhBO10vhoE8BqfcwCgYIKoZIzj0EAwMDaAAwZQIwPpPDJpz6RridDdGO2GGpt6jr/lOh0Un3l/YwpXVTwHT0jZsrF1CqRDT5WC0ZVhH7AjEAz9qoK87KPFCJA9wMsQt9xHQwfDNS+j3xV327DfteACIcwP50AzJ5yJ9Zk9gYcBCh",
         "e": "AQAB",
         "alg": "PS256",
-        "x5u": "https://cooperants.planthaber.de/.well-known/chain.pem"
+        "x5u": "https://www.delta-dao.com/.well-known/certificate-chain-2024.crt"
       }
     }
   ],
   "assertionMethod": [
-    "did:web:cooperants.planthaber.de#JWK2020-RSA"
+    "did:web:delta-dao.com#JWK2020-RSA"
   ]
 }
