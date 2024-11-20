@@ -23,16 +23,16 @@
         "gx:evidenceOf": "gx:leiCode"
       }
     ],
-    "issuanceDate": "2024-11-20T13:48:56.454Z",
+    "issuanceDate": "2024-11-20T14:05:35.509Z",
     "proof": {
       "type": "JsonWebSignature2020",
-      "created": "2024-11-20T14:48:56.464+01:00",
+      "created": "2024-11-20T15:05:35.515+01:00",
       "proofPurpose": "assertionMethod",
       "verificationMethod": "did:web:www.delta-dao.com:compliance:v1#X509-JWK2020",
       "@context": [
         "https://www.w3.org/2018/credentials/v1",
         "https://w3id.org/security/suites/jws-2020/v1"
       ],
-      "jws": "eyJhbGciOiJFUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..AaILzsHOnrDSV5d7byKIfP4KpwPtRC6CcJolIoIHUvZzVj1IivhTg5t3PidkqrVpJDBppAEdupE5tRheTOvZYw"
+      "jws": "eyJhbGciOiJFUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..5BSD3LvobU9novE0XFaWfoZSEWipn3vvZqqJJt6IKZ5vXspseEf9eOK0YGriHX8Uv7AxaG84XpttTN4PbYV3Lg"
     }
   }
