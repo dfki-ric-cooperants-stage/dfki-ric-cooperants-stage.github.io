@@ -23,16 +23,16 @@
         "gx:evidenceOf": "gx:leiCode"
       }
     ],
-    "issuanceDate": "2024-11-20T15:05:48.145Z",
+    "issuanceDate": "2024-11-20T16:13:20.689Z",
     "proof": {
       "type": "JsonWebSignature2020",
-      "created": "2024-11-20T16:05:48.158+01:00",
+      "created": "2024-11-20T17:13:20.700+01:00",
       "proofPurpose": "assertionMethod",
-      "verificationMethod": "did:web:delta-dao.com#JWK2020-RSA",
+      "verificationMethod": "did:web:cooperants.planthaber.de#JWK2020-RSA",
       "@context": [
         "https://www.w3.org/2018/credentials/v1",
         "https://w3id.org/security/suites/jws-2020/v1"
       ],
-      "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..Td70PKuocItVOoaZWIibb9JJG0K0lwOMVv1RbeV4L452J2QymVAQDt2nzsGU0ZYqfizxZpczXPoLfA1U-ogq_8_B-J3JBHs1AkQF5Eci_Dy9Q2er1wtFyrp3iWdUVAlLhZc8Mi-A-EJEjfA1sCRkXG8zV8ARNKd5qiJf8_q7BJeg_Bmk-0USFWdUZhZTRHfuLE7djW8bwfz1idJdYuY87G4467nVoHead06eGOUai-K7oU-OtDxZX75Jiwu-Cfmghqsl3btQ1kkuuxDG55vzaxWzIip9EnC_l4Tpi_rNPaQsCiP3o4bLe4rrSw-UOUixpYSyxQ_kvDY2sbo-RGjI4Q"
+      "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..U8BH1hbOja53FEH5PFZjXdERztpUS8wXjH5TDcZ7j14e8snGV2_VrgGyllVAO2L5hDYgWO5D-6pTjCEyGfedlknouezR5oLAolmX_NlQJdOnR-dtAHS3-jjAeEPU3GS2OEAn_C-i7l5Zc4gEBedvVDQ4SteQzZXxTKMEGLkBVtwmzSLgm4nWPznsRiAx8z11jIU-DiX6m0oaLhQRgED8jlL63QUIUsGH0LoE71NoOZ6G2xu-ybZxU8-T9lUTsYiryNrkCzqmObYxw0bwv818_oVTcwCCRFfuC2At-446ysmTshim6Xjsyuosu-xOBN1kvTBVmOk_WeaNBD8zcAhWRQ"
     }
   }

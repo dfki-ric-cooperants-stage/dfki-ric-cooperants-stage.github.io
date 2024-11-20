@@ -5,7 +5,7 @@
       "https://registry.lab.gaia-x.eu/development/api/trusted-shape-registry/v1/shapes/jsonld/trustframework#"
     ],
     "type": "VerifiableCredential",
-    "issuanceDate": "2024-11-20T15:05:39.399Z",
+    "issuanceDate": "2024-11-20T16:12:56.108Z",
     "credentialSubject": {
       "@context": "https://registry.lab.gaia-x.eu/development/api/trusted-shape-registry/v1/shapes/jsonld/trustframework#",
       "type": "gx:GaiaXTermsAndConditions",
@@ -16,13 +16,13 @@
     "id": "https://cooperants.planthaber.de/.well-known/2210_gx_tandc_DFKI.json",
     "proof": {
       "type": "JsonWebSignature2020",
-      "created": "2024-11-20T16:05:39.415+01:00",
+      "created": "2024-11-20T17:12:56.122+01:00",
       "proofPurpose": "assertionMethod",
-      "verificationMethod": "did:web:delta-dao.com#JWK2020-RSA",
+      "verificationMethod": "did:web:cooperants.planthaber.de#JWK2020-RSA",
       "@context": [
         "https://www.w3.org/2018/credentials/v1",
         "https://w3id.org/security/suites/jws-2020/v1"
       ],
-      "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..bW_JdzQf9JSPHr3f9V-GkdO7pAvNhdDSIPiuuqEpvbu33ropw8V4x7XbzfGKKqi6hWdUDeqBwhesi8SlNYdjKFpeGytOPgUHqD0ml8fZFApCzPPvtAUEPofhAaQ3gzUkTcSvYhif1d9dA9Dj9l2HHRVLSzzhBHaTzGMDCexSWR7pCz6skRbtVysmNMqdd2A-IAuKSxyJnOxBAbBQIxajSxLi16naHyZbjDxyG9To3WGR1h9mm6aU-r_4xRJwBCep5pa63jURtR95rtk9tJQHJc2xcTFGKZVn18ObNVQPB7m6QSkqUN51yj-s1Fz9nHyPVd9JVSWctI83NHJB7FQtOQ"
+      "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..l2XAC6rJkp9Ci-q-oTo0oXR7ZE3zBL0j2dXxXNt23UpVbq629xklt0T7A55gNJhjmuUt4mnWnkSdCmWmZ_RrYIsc664yyAAk9pY0ExG0CjJ3AORTlLPKwQMydQP8llLya4gGP_CxaBs5tRYgSwK30WbkDgT7MzrSzpDJWDIGqluSqb5sKzkij7XI8BKcQhfRnY96yxhd5Wa3T1UTHHIPftVYkT1YdrEN1XgEcIpcYaNKYLapy1WqbovuZEZhfiV-PcRX59WzCiDcJVcc1ucEgBUpCd4I23tfNhdxU6VdOBOOagwyLyCCUncJYrNR_Bbx9vUuw-vS6BtVzpPQVk3mrw"
     }
   }
