@@ -12,16 +12,5 @@
         "id": "https://cooperants.planthaber.de/.well-known/2210_gx_tandc_DFKI.json"
     },
     "issuer": "did:web:delta-dao.com",
-    "id": "https://cooperants.planthaber.de/.well-known/2210_gx_tandc_DFKI.json",
-    "proof": {
-        "type": "JsonWebSignature2020",
-        "created": "2024-09-24T14:58:40.116+02:00",
-        "proofPurpose": "assertionMethod",
-        "verificationMethod": "did:web:delta-dao.com#JWK2020-RSA",
-        "@context": [
-            "https://www.w3.org/2018/credentials/v1",
-            "https://w3id.org/security/suites/jws-2020/v1"
-        ],
-        "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..er5FQqjbwohTUGRcx-61Cf4Vka0BnKPnTzaJB-e_Cd3524s0aMTSHCI3_P8uQ8FLneC7zcnF2WBI6pwFl45_qim8hZffvE1d-UPqhB5K2JYj5H9hBBZp3h3ntuYP-pfAqyD7WrRTu3fDfsg64Vta82j5EVZbvgIuXU658VRLnhg4Vw68XArFarAc4Wyeqk2CARWerXlk_erriNrhitG7K-EpxZmhRgG5F-cZnhkTHXbFKG3mADa1DCK8zMTQ-ZR41eOuMmPOlDYhSGolAghPnQogkuDv8yU8-sJbjzOwsDiLikwY1PsLfxDYAx2HFM5HBTsSTfFp76o7oDVTpVFS6uvSOdTqdvFX2SdlF2IFll5vOZ0b7NIweRUC69AkvYypVn2YQkOIAZE6w8g77g7ko14IfwbJOiavPu542hQya-gOfIySp9KsiUTfH3mRpwGYGCHCJYY__YrKE7QSZUjSq78x4YrEFDQ5Hp7Y8eG-7MsPaYfbJ9DC40bcNVMIAOioEFdZxmaQGJcEnb-msZmrRRNVSicC3dsAiE99Xr_UlqUfxNylXWCAwJVBvpwlnH12xJAg3YrNvA5a6OIG4gwC0WzBkDvhjz4BHW-IVJXg9dDd0NmS2yqsJ1w8chwQm3Mv08dXIIiXTa1lt0esnyJ0oAoCMoeUmWE80pxtwxXLgrc"
-    }
+    "id": "https://cooperants.planthaber.de/.well-known/2210_gx_tandc_DFKI.json"
 }
