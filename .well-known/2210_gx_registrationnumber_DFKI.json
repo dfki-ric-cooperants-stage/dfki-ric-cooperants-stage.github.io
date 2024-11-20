@@ -1,0 +1,34 @@
+{
+    "@context": [
+        "https://www.w3.org/2018/credentials/v1",
+        "https://w3id.org/security/suites/jws-2020/v1"
+    ],
+    "type": [
+        "VerifiableCredential"
+    ],
+    "id": "https://cooperants.planthaber.de/.well-known/2210_gx_registrationnumber_DFKI.json",
+    "issuer": "did:web:www.delta-dao.com:notary:v1",
+    "issuanceDate": "2024-09-24T12:56:42.969Z",
+    "credentialSubject": {
+        "@context": "https://registry.lab.gaia-x.eu/development/api/trusted-shape-registry/v1/shapes/jsonld/trustframework#",
+        "type": "gx:legalRegistrationNumber",
+        "id": "https://cooperants.planthaber.de/.well-known/2210_gx_registrationnumber_DFKI.json",
+        "gx:leiCode": "3912001EOIALNFMEBT29",
+        "gx:leiCode-countryCode": "DE",
+        "gx:leiCode-subdivisionCountryCode": "DE-RP"
+    },
+    "evidence": [
+        {
+            "gx:evidenceURL": "https://api.gleif.org/api/v1/lei-records/",
+            "gx:executionDate": "2024-09-24T12:56:42.969Z",
+            "gx:evidenceOf": "gx:leiCode"
+        }
+    ],
+    "proof": {
+        "type": "JsonWebSignature2020",
+        "created": "2024-09-24T12:56:42.983Z",
+        "proofPurpose": "assertionMethod",
+        "verificationMethod": "did:web:www.delta-dao.com:notary:v1#X509-JWK2020",
+        "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..rfQvdjHp7Wahv43E2xCXtuTpCIKZeaKnejKpddbF6vsz7nvZCCgGQ_aLa_njxeGU8tXdnwU92FUP5vSWu7BX9zlrEZHUIfJhK-CLIpI5JZXyLP9outLH13mwbWyLCT4rqjCdaRf_x8JJT_VB8jrt53BuXpEBK-qzkgbz9tHTCcqI_UawtKeohy0KUfO6aVwBogHSVHJ6CZ37bos9EvND63UkRocWkAQ7An14IsWXrbn-Lvc7kzxzIC8RB-Qxoc4ilWkoJ8u6RRtddEV5h3PefJKuaFed79rXKEj157JWR8x1JXJgz9QpV22B7ln_kVn56y6UG9Rr6x0TIBZOqejB_nm14m_YMM0if-gDG15h-VdRecNb7fPUchyf02ASurjqyBtKeiv7Rl8aCLy8WmQHCMoVgvQBF9i15liwgZ8S_FkDEzqHwUFvNq9wLJ2f9-5bm0wDpoubROZ12-SNoEFwvc0wDSF2eEoF5PCwWaOxnGz_D6ukyniWS-cZ-g2Li5MmgParREfKBDWZH6mbuuj-4kQZKixvpMJTuXIy3Y9XlbTAn5bIECzRZUkXzn-2Gz08hN0x0Ha3vbleJlziEwXaARazqd3710wQpks2sktu6lFrDie8rYX1_5wAM1YlcheP_mAy6bNzB_eomj2JJ4x1dskqEiX543P2tx625mUQfns"
+    }
+}

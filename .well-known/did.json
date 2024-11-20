@@ -6,7 +6,7 @@
   "id": "did:web:cooperants.planthaber.de",
   "verificationMethod": [
     {
-      "id": "did:web:cooperants.planthaber.de#JWK2020-RSA",
+      "id": "did:web:delta-dao.com#JWK2020-RSA",
       "type": "JsonWebKey2020",
       "controller": "did:web:cooperants.planthaber.de",
       "publicKeyJwk": {
