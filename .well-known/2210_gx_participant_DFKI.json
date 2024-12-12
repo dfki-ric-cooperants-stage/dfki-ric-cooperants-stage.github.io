@@ -7,14 +7,14 @@
   "type": [
     "VerifiableCredential"
   ],
-  "id": "https://cooperants.planthaber.de/.well-known/2210_gx_participant_DFKI.json",
-  "issuer": "did:web:cooperants.planthaber.de",
-  "issuanceDate": "2024-11-20T16:13:34.041Z",
+  "id": "https://gaia-x.hb.dfki.de/.well-known/2210_gx_participant_DFKI.json",
+  "issuer": "did:web:gaia-x.hb.dfki.de",
+  "issuanceDate": "2024-12-12T15:56:19.309Z",
   "credentialSubject": {
     "gx:name": "DFKI",
     "gx:legalName": "Deutsches Forschungszentrum für Künstliche Intelligenz GmbH",
     "gx:legalRegistrationNumber": {
-      "id": "https://cooperants.planthaber.de/.well-known/2210_gx_registrationnumber_DFKI.json"
+      "id": "https://gaia-x.hb.dfki.de/.well-known/2210_gx_registrationnumber_DFKI.json"
     },
     "gx:headquarterAddress": {
       "gx:countrySubdivisionCode": "DE-RP",
@@ -33,17 +33,17 @@
     "gx:website": "https://www.dfki.de/en/web",
     "type": "gx:LegalParticipant",
     "gx-terms-and-conditions:gaiaxTermsAndConditions": "70c1d713215f95191a11d38fe2341faed27d19e083917bc8732ca4fea4976700",
-    "id": "https://cooperants.planthaber.de/.well-known/2210_gx_participant_DFKI.json"
+    "id": "https://gaia-x.hb.dfki.de/.well-known/2210_gx_participant_DFKI.json"
   },
   "proof": {
     "type": "JsonWebSignature2020",
-    "created": "2024-11-20T17:13:34.053+01:00",
+    "created": "2024-12-12T16:56:19.326+01:00",
     "proofPurpose": "assertionMethod",
-    "verificationMethod": "did:web:cooperants.planthaber.de#JWK2020-RSA",
+    "verificationMethod": "did:web:delta-dao.com#JWK2020-RSA",
     "@context": [
       "https://www.w3.org/2018/credentials/v1",
       "https://w3id.org/security/suites/jws-2020/v1"
     ],
-    "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..n3l23MlO29MEERxAykke4s2tZVLuIlWennMjfo_zbpSfH9uLNgIvkW0NKuA3eXuu3aK-lU5dUn5Nqq53wKfkJX2Tejt9lrPrF99n9M50c6z4_Xr1xxJoNHNqE0N0hVQtQ7FFkuNASBQVhHetTlvfKMkC1drbLGJyFj861pmJqAfR5n5gDBEmFN4kBSkfSkBhfOOA5srvaR45pnFPIELZlyabNzEgcg7Zafj-1DSFhoe3qTqy8VXkr-emFO0n-D1dxytKBH6CJfDJ8lrZz5YLsA0ICVmIos1H4mtzaqjERf_eUT1ckc4tMQ7VpkDVBAs2qqX0dg4QhoUGbp81G73w3w"
+    "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..BpAFEE_pH4D19UtFf3FoRNq2MjTFGmEJzJIkPYmwn9-bmGQj1OVsXhNy4we5_4rTOetKG0mp8POV4TIYQ1yIdwVluKetsg8OiAk2lUfcax-aO2hREsoEf6-0nbGh8-jASy9GAIdrXDMc4rLIUgGfU-X4qmF30w87gO4_3eTpLrfBFcwayXpD93aYGiEhGkTmIzl_fiQ4OCpcjYOfvImKrR40RPV8y0saxOauKPvSGXDRbTtJ4_j2NZZ5tx_VpabB4OL_sn4sxALlA-P7YCiEducSlxX8B96VzYg8DLauISmK31KcT9khyDeOmptcxFnjhM5imDEhk5ZOhA52n6HEdQ"
   }
 }
