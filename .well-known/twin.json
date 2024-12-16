@@ -7,49 +7,51 @@
   "type": "VerifiableCredential",
   "id": "https://gaia-x.hb.dfki.de/.well-known/twin.json",
   "issuer": "did:web:gaia-x.hb.dfki.de",
-  "issuanceDate": "2024-10-27T13:08:16.301Z",
+  "issuanceDate": "2024-12-16T17:48:11.595Z",
   "credentialSubject": {
-    "type": "gx:ServiceOffering",
     "id": "did:op:4da23b7051f91d0f728e7e6b77cb533feace020f7e29cffd149f9b80212b0e76",
+    "type": "gx:ServiceOffering",
     "gx:providedBy": {
       "id": "https://gaia-x.hb.dfki.de/.well-known/2210_gx_participant_DFKI.json"
     },
     "gx:maintainedBy": {
       "id": "https://gaia-x.hb.dfki.de/.well-known/2210_gx_participant_DFKI.json"
     },
-    "gx:serviceOffering:name": "Robotic digital twin service",
-    "gx:serviceOffering:description": "Robotc twin service",
-    "gx:policy": "default: allow",
+    "gx:serviceOffering:serviceModel": "subscription",
+    "gx:serviceOffering:subscriptionDuration": 86400,
+    "gx:policy": "https://gaia-x.hb.dfki.de/.well-known/yourpolicy.json",
     "gx:termsAndConditions": {
       "gx:URL": "https://raw.githubusercontent.com/dfki-ric-cooperants-stage/dfki-ric-cooperants-stage.github.io/refs/heads/main/Terms.md",
       "gx:hash": "85fce3b78aa1adf20d0fb7fea03d68e42788937c2b191721663237a0d82d7e622bb9e4c0eedefe2d573abb3811ac305fa2d3103aea73fb4d665f071d96907209"
     },
-    "gx:serviceOffering:gdpr": [
-      {
-        "gx:serviceOffering:imprint": "https://www.delta-dao.com/imprint/"
-      },
-      {
-        "gx:serviceOffering:privacyPolicy": "https://www.delta-dao.com/privacy/"
-      }
-    ],
-    "gx:serviceOffering:dataProtectionRegime": [
-      "GDPR2016"
-    ],
     "gx:dataAccountExport": {
       "gx:requestType": "email",
       "gx:accessType": "digital",
-      "gx:formatType": "mime/png"
-    }
+      "gx:formatType": "mime/json"
+    },
+    "gx:serviceOffering:dataProtectionRegime": [
+      "GDPR2016"
+    ],
+    "gx:serviceOffering:gdpr": [
+      {
+        "gx:serviceOffering:imprint": "https://gaia-x.hb.dfki.de/imprint/"
+      },
+      {
+        "gx:serviceOffering:privacyPolicy": "https://gaia-x.hb.dfki.de/privacy/"
+      }
+    ],
+    "gx:dependsOn": [],
+    "gx:aggregationOf": []
   },
   "proof": {
     "type": "JsonWebSignature2020",
-    "created": "2024-12-16T18:44:08.464+01:00",
+    "created": "2024-12-16T18:54:09.176+01:00",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:web:gaia-x.hb.dfki.de#JWK2020-RSA",
     "@context": [
       "https://www.w3.org/2018/credentials/v1",
       "https://w3id.org/security/suites/jws-2020/v1"
     ],
-    "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..amD6M1mpQL01lJ8kDR0M_alyGmNQrKy02FcYi3NFxiIEjlYyFFTmWk_MfOz6IFWsLoQRWuiZw_Jh5JRTyMQAqYbzQIPr_21CFtFAITGSWbAcjsV8AQgwEaHkSRCuZD8POvGp1LeKHplXx_TRFQ_koY4M59_iO7920hHBn7Lw3pibbTOgk3Sv61lxNbHiN7rivjuJFCD_bgoFAcZtedoaLBTNu4T_Gwgr0YGjClomqgLKtk10shW4fLEoOx-5E-HVUM5Ts_r8jKZEvdGt5OihyFuHjUTPcRHfxDl3Grq97d4ZljAVPhaJp1V_oHf-5fyExY1QeNqUfYQrcj3JBAo0HA"
+    "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..KA8wQ6t1K0Q6sSKuFD2xvNP0JkJ2b-KmusnmXZQnq3TxOs20iPi5YU0nAZDZndY0JFDRYF07_7Gl0vCQUCFPZ3Xec8F84KleUUIJSVLYg3cU-ILk093Z5neJdrL5K6D56-Vl6HGPtEn24Q5RxPZCyysyXLk54nI1m6Jqwi7COFqIkV6idH-InANPjZ8vIorv6-MQzNfplTg-ZZqYeYd8rP_cnYsVyZ85vPuqqZtaDz2LpfAYew9hzEjGjeEiAD0Mr-oy8quzbn2KqqAsRMl-V-SU4YpPQfymrRZpB9jot0RI87EKgPIdygZoYod0qWuy2UbvLcMxxrspglUaM_lNFQ"
   }
 }
