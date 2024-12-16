@@ -138,7 +138,7 @@
         },
         "gx:serviceOffering:serviceModel": "subscription",
         "gx:serviceOffering:subscriptionDuration": 86400,
-        "gx:policy": "https://gaia-x.hb.dfki.de/.well-known/yourpolicy.json",
+        "gx:policy": "https://gaia-x.hb.dfki.de/.well-known/policy.json",
         "gx:termsAndConditions": {
           "gx:URL": "https://raw.githubusercontent.com/dfki-ric-cooperants-stage/dfki-ric-cooperants-stage.github.io/refs/heads/main/Terms.md",
           "gx:hash": "41ce24f0ac33852d99609ed034b5399fd6cd166b56e062b1d6f8327dda80fdcf"
@@ -153,10 +153,10 @@
         ],
         "gx:serviceOffering:gdpr": [
           {
-            "gx:serviceOffering:imprint": "https://gaia-x.hb.dfki.de/imprint/"
+            "gx:serviceOffering:imprint": "https://gaia-x.hb.dfki.de/imprint"
           },
           {
-            "gx:serviceOffering:privacyPolicy": "https://gaia-x.hb.dfki.de/privacy/"
+            "gx:serviceOffering:privacyPolicy": "https://gaia-x.hb.dfki.de/privacy"
           }
         ],
         "gx:dependsOn": [],
@@ -164,14 +164,14 @@
       },
       "proof": {
         "type": "JsonWebSignature2020",
-        "created": "2024-12-16T19:28:24.625+01:00",
+        "created": "2024-12-16T19:36:14.226+01:00",
         "proofPurpose": "assertionMethod",
         "verificationMethod": "did:web:gaia-x.hb.dfki.de#JWK2020-RSA",
         "@context": [
           "https://www.w3.org/2018/credentials/v1",
           "https://w3id.org/security/suites/jws-2020/v1"
         ],
-        "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..b9teqh1ZYtzV0J6DWaDHNFVxnf4uHQGJYxblp6OaAU7SVbRqpkdeIsgRggtsBn28jDpAoN2KwHmz09E73O9jl93fgDJnh2acrUQICtzbx4nBhzJ93hSScd3i71ZUB1xjvk7p5JHfhBlL74vC547RQFERZTTJABmxIMgt2yGJP7HiBH3npfHso1EY4ryU6ZrqtEFePI6Oz6rWfCLUuHkHnpoVaLsiNQDE2NscbLR1uW3T5AwdkxGoTDfSFC89vmjOk785RQaHzKu_r5_OC_iXEnOz1cPD38JmvHyZVA46FaJN1BXcb-eU5OccL0K6l0Rel-xEY9LZsvZd7wo_1l9DMA"
+        "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..f8j4f2XCTXU5tBf_dF5wvCLAwRyT_rKbekcw2-z1CaQ0vIrZDQNDhdSmBd9s6qjfvcAT038JBVACHTpLVldN7QMdGnX8pk1q2_Wk7pgLhCwu4gNHlCTOBbBRZ9s3KYc0CPqNrDNpUSCjNdztk0EefK1dbcgigC9t9xO75Y2G_Vaco5pRSnnv6Etkrc-0l3y-0jZBd75ZiVLTvUEewE1Uiqhuur28LzE8BbDdiTUl-1W89Ope8aFg4r6xWMwqzOXFgCZ70ikYN9FgMLikKwEkPmcvFVTNmuXClXatIj__2yiNCWImFHqJYhXOKsUdqBOnJPw4BK8FpSFFWGOz6d18aQ"
       }
     }
   ]
