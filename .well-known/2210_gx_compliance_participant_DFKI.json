@@ -5,13 +5,41 @@
     {
       "@context": [
         "https://www.w3.org/2018/credentials/v1",
+        "https://w3id.org/security/suites/jws-2020/v1",
+        "https://registry.lab.gaia-x.eu/development/api/trusted-shape-registry/v1/shapes/jsonld/trustframework#"
+      ],
+      "type": "VerifiableCredential",
+      "issuanceDate": "2024-12-12T15:55:39.855Z",
+      "credentialSubject": {
+        "@context": "https://registry.lab.gaia-x.eu/development/api/trusted-shape-registry/v1/shapes/jsonld/trustframework#",
+        "type": "gx:GaiaXTermsAndConditions",
+        "gx:termsAndConditions": "The PARTICIPANT signing the Self-Description agrees as follows:\n- to update its descriptions about any changes, be it technical, organizational, or legal - especially but not limited to contractual in regards to the indicated attributes present in the descriptions.\n\nThe keypair used to sign Verifiable Credentials will be revoked where Gaia-X Association becomes aware of any inaccurate statements in regards to the claims which result in a non-compliance with the Trust Framework and policy rules defined in the Policy Rules and Labelling Document (PRLD).",
+        "id": "https://gaia-x.hb.dfki.de/.well-known/2210_gx_tandc_DFKI.json"
+      },
+      "issuer": "did:web:gaia-x.hb.dfki.de",
+      "id": "https://gaia-x.hb.dfki.de/.well-known/2210_gx_tandc_DFKI.json",
+      "proof": {
+        "type": "JsonWebSignature2020",
+        "created": "2024-12-12T16:55:39.872+01:00",
+        "proofPurpose": "assertionMethod",
+        "verificationMethod": "did:web:delta-dao.com#JWK2020-RSA",
+        "@context": [
+          "https://www.w3.org/2018/credentials/v1",
+          "https://w3id.org/security/suites/jws-2020/v1"
+        ],
+        "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..JxC6mOcPJiorOZ_tC2XqOdqdvkHRyuegNk1S7JHVBmluynk-q_s4NN4L3ONJLXiG5vy6z-ngobPvOxBNsXGx67qiMLtuMhiC3puqOdyGWFDM-Td7ONsLmWgCWsILpYRaTuIZfxqACGmKFsJobAzduzrAZaujaU0mg_z3nZsElUFMASjKWUeairxmdJMC1zYN2OWGMkyLYYS2XQt0P0MMXR4HHKWY4ITeWC8mG5WAuethBrxfZm2Fy2eNkqnL70TaKiYgALNigD5Wz3ygYalUGs6SK48DsHfKo2eAVIaV5pa-Z7v8204mz044bIGXiqEafqGU54Jb3Y3sF0eacZrsDA"
+      }
+    },
+    {
+      "@context": [
+        "https://www.w3.org/2018/credentials/v1",
         "https://w3id.org/security/suites/jws-2020/v1"
       ],
       "type": [
         "VerifiableCredential"
       ],
       "id": "https://gaia-x.hb.dfki.de/.well-known/2210_gx_registrationnumber_DFKI.json",
-      "issuer": "did:web:gaia-x.hb.dfki.de",
+      "issuer": "did:web:www.delta-dao.com:notary:v1",
       "credentialSubject": {
         "@context": "https://registry.lab.gaia-x.eu/development/api/trusted-shape-registry/v1/shapes/jsonld/trustframework#",
         "type": "gx:legalRegistrationNumber",
@@ -30,42 +58,14 @@
       "issuanceDate": "2024-12-16T14:56:36.558Z",
       "proof": {
         "type": "JsonWebSignature2020",
-        "created": "2024-12-16T15:56:36.568+01:00",
+        "created": "2024-12-16T20:11:53.324+01:00",
         "proofPurpose": "assertionMethod",
-        "verificationMethod": "did:web:delta-dao.com#JWK2020-RSA",
+        "verificationMethod": "did:web:gaia-x.hb.dfki.de#JWK2020-RSA",
         "@context": [
           "https://www.w3.org/2018/credentials/v1",
           "https://w3id.org/security/suites/jws-2020/v1"
         ],
-        "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..VUI26yZ3cyRacf1LqM-0b7YEYVQ19Yy9wYnW9gg1yCrd4znEw40r_KSUUu-pzvdKBtNYHzfTopW9CTbyv8qFfxCIC80m7VHGula1FXaHu_xa2uwewOMTcfZHaFZyhcccVErIAco03DVnLNF5VL0ID_5jsCVza_1mMWYtI5Z3ZK7gTf5fH3MyUyA6qK80U2Iayds6baZdAw-5BeqsLEAYLXSp3L3CPRvMIW241bja-xRAWgmE2J5K-XIRXS2KfpgLzRjnqa9W0buOlbHSHsLLBaF_Wca6REA2wfTKbSlPf34rq6ogdYQg1uPbqCu2zAF0h-PFYt66ags_v1RvlA0xcg"
-      }
-    },
-    {
-      "@context": [
-        "https://www.w3.org/2018/credentials/v1",
-        "https://w3id.org/security/suites/jws-2020/v1",
-        "https://registry.lab.gaia-x.eu/development/api/trusted-shape-registry/v1/shapes/jsonld/trustframework#"
-      ],
-      "type": "VerifiableCredential",
-      "issuanceDate": "2024-12-16T14:57:13.243Z",
-      "credentialSubject": {
-        "@context": "https://registry.lab.gaia-x.eu/development/api/trusted-shape-registry/v1/shapes/jsonld/trustframework#",
-        "type": "gx:GaiaXTermsAndConditions",
-        "gx:termsAndConditions": "The PARTICIPANT signing the Self-Description agrees as follows:\n- to update its descriptions about any changes, be it technical, organizational, or legal - especially but not limited to contractual in regards to the indicated attributes present in the descriptions.\n\nThe keypair used to sign Verifiable Credentials will be revoked where Gaia-X Association becomes aware of any inaccurate statements in regards to the claims which result in a non-compliance with the Trust Framework and policy rules defined in the Policy Rules and Labelling Document (PRLD).",
-        "id": "https://gaia-x.hb.dfki.de/.well-known/2210_gx_tandc_DFKI.json"
-      },
-      "issuer": "did:web:gaia-x.hb.dfki.de",
-      "id": "https://gaia-x.hb.dfki.de/.well-known/2210_gx_tandc_DFKI.json",
-      "proof": {
-        "type": "JsonWebSignature2020",
-        "created": "2024-12-16T15:57:13.253+01:00",
-        "proofPurpose": "assertionMethod",
-        "verificationMethod": "did:web:delta-dao.com#JWK2020-RSA",
-        "@context": [
-          "https://www.w3.org/2018/credentials/v1",
-          "https://w3id.org/security/suites/jws-2020/v1"
-        ],
-        "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..Ia6OP0G3PBbo_9-QtdOKA1i9tcSU7rITHOhZZcPurIEQ-THFP2xMTX2Mw-kFmvcrbebt-4eUdM9fLkMs6dx59P2EXuVpQOU8LQI1cdnK_YpG0zQkupWjb2xgU63a5_OpABQyvul6s8ObfCgtXrSDvVQ7A51L1pRkMCQB2HjeIE0Ptsln5jrys0fJMuIVi6GaexmSW1DnRNZ7jOeBhOx-AzFW9kN3KhGDCs8gjyRnkaklrsa8A66DTAaKrzkufZctEmEvDEhzJr7sYwN1XCnsZuInotFVOvebMXQ0_gSaSciNM7jxkVuvGVvpiEWtPP8kmpyeuPi33mXHmjOHfI4brQ"
+        "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..BwfA6uCLOz-bVlss41OaYx4Jlk7kySLp1cDPz4hiFcFnI_ZCNC2XZb23Avhr1ayC8kY7plJuAzMhNMFYXlOsVbA7c5JSgIkvp2ijCoKWqmk558D1QH4OG7UBj7ikdAVQtqeFwOlO2kuuwt33p0P_cm8CYLf06DGrz_uEdZvA6xkxwnCNaEtrUPs8TtXJQARef7ZiCyit6fY8rDnuoLyK3uYfTZzqWXazfhD_qxQdN_Jo8v9cQQWacNG57cX5h1_JWDdV3P5Jv0WwWNkSV9tdjV1jl5zZWKh30sNYBLu3a_UhSQF2_ob39GNtINCtuiPd8NxnoQdZHWp9g_LCkKz9bg"
       }
     },
     {
@@ -107,14 +107,14 @@
       },
       "proof": {
         "type": "JsonWebSignature2020",
-        "created": "2024-12-16T15:58:08.767+01:00",
+        "created": "2024-12-16T20:13:48.062+01:00",
         "proofPurpose": "assertionMethod",
-        "verificationMethod": "did:web:delta-dao.com#JWK2020-RSA",
+        "verificationMethod": "did:web:gaia-x.hb.dfki.de#JWK2020-RSA",
         "@context": [
           "https://www.w3.org/2018/credentials/v1",
           "https://w3id.org/security/suites/jws-2020/v1"
         ],
-        "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..Qt7z5YWKslDv4MdDcOAnZesH--AiWXmDuFEKiEUp85eiu2CEUkYafJEVHvHMrPkmO06PMElELY7crtqLyfwFHXnZkJF-ToHDJCRLvR-fJaGn_lGCRvHE4U70V7uq3oofrU28ux3jk3wOLpVLbH1jIyge6oHGMGDxjEkcqh-Z_7Yv_MGg69Fs5KWST-bW1wUqAebI6fKK5YlPzWvhoMXIg5y2eHSeLGwNdPWHexDYy2fzXkQev70T531uSi76gEQHShNV-afNcugPHR4SaVG1Ps5iq5Oj8I3DKa9r1xEnvlikm_yIMoABTaF_IY4jXOexBMumJUEfpNDcp7YKgkOa4w"
+        "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..e_BHDyfqN6E0SE5g0m2pSCmhpTmAIYQBlIf6JDwNuKHkiGO1YzpkJmuA2rsQeeLmHNdvG7oRcAlWp02qKBR1OsAYF_Fa6rYaZ94lzsHZjmx5HKXNFuZMfI0uyTHDp8bDAZ_qPNVrYG-dHZaA2VuiXlzyvmUwLGcIDoo4_ZqK0xuDZQdC8YTo-74NS6-_SzNzIaW7A9UxiLCrFgm8AUk_PP5M5I9bTwXBUVAeWOv9z7L__Jk05X9owELITailsCUAbOK2NrlI9n0t6itv_xlfvXCKu2WO8mxbrFyleRXA2nNh_GPjbQBf1-NgrSexBblOWhFwwbmvF0fpvMMU8ZdJqA"
       }
     }
   ]

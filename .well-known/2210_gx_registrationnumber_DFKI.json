@@ -7,7 +7,7 @@
     "VerifiableCredential"
   ],
   "id": "https://gaia-x.hb.dfki.de/.well-known/2210_gx_registrationnumber_DFKI.json",
-  "issuer": "did:web:gaia-x.hb.dfki.de",
+  "issuer": "did:web:www.delta-dao.com:notary:v1",
   "credentialSubject": {
     "@context": "https://registry.lab.gaia-x.eu/development/api/trusted-shape-registry/v1/shapes/jsonld/trustframework#",
     "type": "gx:legalRegistrationNumber",
@@ -26,13 +26,13 @@
   "issuanceDate": "2024-12-16T14:56:36.558Z",
   "proof": {
     "type": "JsonWebSignature2020",
-    "created": "2024-12-16T17:45:57.607+01:00",
+    "created": "2024-12-16T20:11:53.324+01:00",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:web:gaia-x.hb.dfki.de#JWK2020-RSA",
     "@context": [
       "https://www.w3.org/2018/credentials/v1",
       "https://w3id.org/security/suites/jws-2020/v1"
     ],
-    "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..Y-52DSt_4WBh8vfISGlL2F3TZQnsFnTw0OBzPERRbNodm-8oDtrJhJ0KKGu5s2SRtn10PvcYKN5PgQP3c9jdmqFhNRf4rhDstgTJNhAuryAgimjtzF6XqGP1YyVbAHj4fzhRakbJxoYndbYsRAtrMvaC7Rh_gRoPJf-aysxIM6E6c5VWStYWUZkhG8sSULz01s4MpK0TMFa7WqnRrpQYPDpM_QwOsOiQKz0CQNTipJmpv7MTDFDLZLHn73b4O9rqDD5_45hj965TWLJAixqX6v9xmyZne8yVwtQap56KqN0BEXIlKEGWmzJUnDfcyVQM9jI8m3HoUUlGYYihBPinaA"
+    "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..BwfA6uCLOz-bVlss41OaYx4Jlk7kySLp1cDPz4hiFcFnI_ZCNC2XZb23Avhr1ayC8kY7plJuAzMhNMFYXlOsVbA7c5JSgIkvp2ijCoKWqmk558D1QH4OG7UBj7ikdAVQtqeFwOlO2kuuwt33p0P_cm8CYLf06DGrz_uEdZvA6xkxwnCNaEtrUPs8TtXJQARef7ZiCyit6fY8rDnuoLyK3uYfTZzqWXazfhD_qxQdN_Jo8v9cQQWacNG57cX5h1_JWDdV3P5Jv0WwWNkSV9tdjV1jl5zZWKh30sNYBLu3a_UhSQF2_ob39GNtINCtuiPd8NxnoQdZHWp9g_LCkKz9bg"
   }
 }

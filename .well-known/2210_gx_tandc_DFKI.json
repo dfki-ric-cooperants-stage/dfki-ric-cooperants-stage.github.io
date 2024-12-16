@@ -5,7 +5,7 @@
     "https://registry.lab.gaia-x.eu/development/api/trusted-shape-registry/v1/shapes/jsonld/trustframework#"
   ],
   "type": "VerifiableCredential",
-  "issuanceDate": "2024-12-16T16:45:39.735Z",
+  "issuanceDate": "2024-12-12T15:55:39.855Z",
   "credentialSubject": {
     "@context": "https://registry.lab.gaia-x.eu/development/api/trusted-shape-registry/v1/shapes/jsonld/trustframework#",
     "type": "gx:GaiaXTermsAndConditions",
@@ -16,13 +16,13 @@
   "id": "https://gaia-x.hb.dfki.de/.well-known/2210_gx_tandc_DFKI.json",
   "proof": {
     "type": "JsonWebSignature2020",
-    "created": "2024-12-16T17:45:39.751+01:00",
+    "created": "2024-12-12T16:55:39.872+01:00",
     "proofPurpose": "assertionMethod",
-    "verificationMethod": "did:web:gaia-x.hb.dfki.de#JWK2020-RSA",
+    "verificationMethod": "did:web:delta-dao.com#JWK2020-RSA",
     "@context": [
       "https://www.w3.org/2018/credentials/v1",
       "https://w3id.org/security/suites/jws-2020/v1"
     ],
-    "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..SH5mCXdY-Xy7I2frh72Vt3WVOcWUxtL1ni8qzb2QuH3ooQGsmLT4EUesLeTc5BkTAAKzXUdtxbTCxzhy4N3Ar9uL9669BNd9VRJcL91P6g3nSW45BfNlgpjg6gTDuYXqavgdLOiOsUQNp2budSyOIRlsP5MKjWqYuFx0_-Zqc5KiTyBORM7AnaVY2ccVlrJBaKJcd5kHBzR084UF-0_Xhs22Av42m-5A4-Ito229XTETrB4uyfNQ7f16lORhTDM_bYIjtiL09gvLV1xzIHxpgRQWOyd3VHKiHlJbefEq7DC3E0RVoOPxHhxPLzbNCh4D8xDNYMeWjqpz1lQhOHDfDg"
+    "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..JxC6mOcPJiorOZ_tC2XqOdqdvkHRyuegNk1S7JHVBmluynk-q_s4NN4L3ONJLXiG5vy6z-ngobPvOxBNsXGx67qiMLtuMhiC3puqOdyGWFDM-Td7ONsLmWgCWsILpYRaTuIZfxqACGmKFsJobAzduzrAZaujaU0mg_z3nZsElUFMASjKWUeairxmdJMC1zYN2OWGMkyLYYS2XQt0P0MMXR4HHKWY4ITeWC8mG5WAuethBrxfZm2Fy2eNkqnL70TaKiYgALNigD5Wz3ygYalUGs6SK48DsHfKo2eAVIaV5pa-Z7v8204mz044bIGXiqEafqGU54Jb3Y3sF0eacZrsDA"
   }
 }

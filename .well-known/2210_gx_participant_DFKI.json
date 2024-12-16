@@ -37,13 +37,13 @@
   },
   "proof": {
     "type": "JsonWebSignature2020",
-    "created": "2024-12-16T17:46:58.982+01:00",
+    "created": "2024-12-16T20:13:48.062+01:00",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:web:gaia-x.hb.dfki.de#JWK2020-RSA",
     "@context": [
       "https://www.w3.org/2018/credentials/v1",
       "https://w3id.org/security/suites/jws-2020/v1"
     ],
-    "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..fc7bu1pVjDbFAqfD5Ry3s-ZIArTL_S7bbDLbc4IKpc7xF5BTMdLZYgLU3arfUucrDMkK-9Py-LcUioYzc_WorWOTN7p0HhqCSeLF8Ktv3I-X9lMqhfFjZouBpGg3fmg73LtL8RPXlmw1bEHYrIW7qKXaQFqe6zTF7TPghhsG1hTwMKHIUGyGMS1UEZ-ptL-M2Hd0ZykgZddhKhj2X9EF6OS5IE0MZHn6p-q8cqrOyxVKTI6h5Fwm1twraj_413MHaERj5XmJRvuK64Qaq3CxTzrrl8j91606vsmHfEIp2zOvL0r8fp24mAWKOKVSjkIEwwBcysYbYVBs59tISYBVGg"
+    "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..e_BHDyfqN6E0SE5g0m2pSCmhpTmAIYQBlIf6JDwNuKHkiGO1YzpkJmuA2rsQeeLmHNdvG7oRcAlWp02qKBR1OsAYF_Fa6rYaZ94lzsHZjmx5HKXNFuZMfI0uyTHDp8bDAZ_qPNVrYG-dHZaA2VuiXlzyvmUwLGcIDoo4_ZqK0xuDZQdC8YTo-74NS6-_SzNzIaW7A9UxiLCrFgm8AUk_PP5M5I9bTwXBUVAeWOv9z7L__Jk05X9owELITailsCUAbOK2NrlI9n0t6itv_xlfvXCKu2WO8mxbrFyleRXA2nNh_GPjbQBf1-NgrSexBblOWhFwwbmvF0fpvMMU8ZdJqA"
   }
 }
