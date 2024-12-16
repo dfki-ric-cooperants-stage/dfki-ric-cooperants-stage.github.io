@@ -10,7 +10,7 @@
   "issuanceDate": "2024-10-27T13:08:16.301Z",
   "credentialSubject": {
     "type": "gx:ServiceOffering",
-    "id": "https://gaia-x.hb.dfki.de/.well-known/twin.json",
+    "id": "did:op:4da23b7051f91d0f728e7e6b77cb533feace020f7e29cffd149f9b80212b0e76",
     "gx:providedBy": {
       "id": "https://gaia-x.hb.dfki.de/.well-known/2210_gx_participant_DFKI.json"
     },
@@ -43,13 +43,13 @@
   },
   "proof": {
     "type": "JsonWebSignature2020",
-    "created": "2024-12-16T18:39:25.062+01:00",
+    "created": "2024-12-16T18:44:08.464+01:00",
     "proofPurpose": "assertionMethod",
     "verificationMethod": "did:web:gaia-x.hb.dfki.de#JWK2020-RSA",
     "@context": [
       "https://www.w3.org/2018/credentials/v1",
       "https://w3id.org/security/suites/jws-2020/v1"
     ],
-    "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..jVo3TUUeyJhZEugDVssiA0K0o20RtNmI065HElmWPYTKFp4zrr7GhbZVyTOaoVsvEe27Nqq9hPCW8jXxdHIK5Uv4hN5YwK2Z8Xlt42NdI-wjiNxPXBoG8UJfIRm-548_CXy6UNh8GhWZv-NH2DanrLvNFgVYZmoAPgb8aRvP43hLG5fEq_CFl4sFf2300AcyhXp7CXzTAMgANBdXle359SCx4ilZ78qdTILSDprhQdqp8JvJDjmdeWN86m8Lb-NVuyH-ESUc8alrwQKyvbl2SmMlp7uC6kzYLaYpfh4OBn81KWCWSEbsj3_yc-0RoWyjdEUgPKhtBYoMBhtKauv-xw"
+    "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..amD6M1mpQL01lJ8kDR0M_alyGmNQrKy02FcYi3NFxiIEjlYyFFTmWk_MfOz6IFWsLoQRWuiZw_Jh5JRTyMQAqYbzQIPr_21CFtFAITGSWbAcjsV8AQgwEaHkSRCuZD8POvGp1LeKHplXx_TRFQ_koY4M59_iO7920hHBn7Lw3pibbTOgk3Sv61lxNbHiN7rivjuJFCD_bgoFAcZtedoaLBTNu4T_Gwgr0YGjClomqgLKtk10shW4fLEoOx-5E-HVUM5Ts_r8jKZEvdGt5OihyFuHjUTPcRHfxDl3Grq97d4ZljAVPhaJp1V_oHf-5fyExY1QeNqUfYQrcj3JBAo0HA"
   }
 }
