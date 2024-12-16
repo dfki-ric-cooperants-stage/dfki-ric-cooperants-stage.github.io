@@ -23,16 +23,16 @@
       "gx:evidenceOf": "gx:leiCode"
     }
   ],
-  "issuanceDate": "2024-12-12T15:56:05.805Z",
+  "issuanceDate": "2024-12-16T14:56:36.558Z",
   "proof": {
     "type": "JsonWebSignature2020",
-    "created": "2024-12-12T16:56:05.813+01:00",
+    "created": "2024-12-16T17:45:57.607+01:00",
     "proofPurpose": "assertionMethod",
-    "verificationMethod": "did:web:delta-dao.com#JWK2020-RSA",
+    "verificationMethod": "did:web:gaia-x.hb.dfki.de#JWK2020-RSA",
     "@context": [
       "https://www.w3.org/2018/credentials/v1",
       "https://w3id.org/security/suites/jws-2020/v1"
     ],
-    "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..Aj879P7uM778QUHvZzA0-J_nTViUnhHzKxGc5XPlS1eDdtfSZ5bsbwaL_KfPFQMqrWI7OOiSw2PULAtP1yOJGMS3PMwZ27Beh-kWvrEyEGziiYajbVbqJ59kFTQazlfl2DlYlkmNYVsGR4_Tj40M3tLf6aY3ZOJ3gDW1UA7ZoBMd2-ILhapgp7XaHq4I5LgLrbtGWx8OL7DfFw-yw9SSmTmKC84x7XgYwu_b8bWO23r6GjeH-vt23lUaCR_lfA_gnO0niZZZE6fTmlVuRf_-6CW5j-cRM2LmnVHYMDjLmYCHGrgaXPe12gShdczQQ2o8GPHQHxNZzi8IvReK562dfg"
+    "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..Y-52DSt_4WBh8vfISGlL2F3TZQnsFnTw0OBzPERRbNodm-8oDtrJhJ0KKGu5s2SRtn10PvcYKN5PgQP3c9jdmqFhNRf4rhDstgTJNhAuryAgimjtzF6XqGP1YyVbAHj4fzhRakbJxoYndbYsRAtrMvaC7Rh_gRoPJf-aysxIM6E6c5VWStYWUZkhG8sSULz01s4MpK0TMFa7WqnRrpQYPDpM_QwOsOiQKz0CQNTipJmpv7MTDFDLZLHn73b4O9rqDD5_45hj965TWLJAixqX6v9xmyZne8yVwtQap56KqN0BEXIlKEGWmzJUnDfcyVQM9jI8m3HoUUlGYYihBPinaA"
   }
 }
