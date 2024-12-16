@@ -1,1 +1,1 @@
-include: [".well-known", ".well-known/acme-challange/8Cxu19tXQuv0vu5HXdxZbBxLUnvAvaPcAyKWXe_GCb8"]
+include: [".well-known"]
