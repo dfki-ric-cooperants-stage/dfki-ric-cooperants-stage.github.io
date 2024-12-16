@@ -140,8 +140,8 @@
         "gx:serviceOffering:description": "Robotc twin service",
         "gx:policy": "default: allow",
         "gx:termsAndConditions": {
-          "gx:URL": "https://gaia-x.hb.dfki.de/Terms",
-          "gx:hash": "1e9dc854f6df3ae573fef3a8f16a15e627bc2039afb5ba4f97745e188e0b1b130692135eb4a25c7205921256b5153a451f01f57457c0c7160f424583dc79835c"
+          "gx:URL": "https://raw.githubusercontent.com/dfki-ric-cooperants-stage/dfki-ric-cooperants-stage.github.io/refs/heads/main/Terms.md",
+          "gx:hash": "85fce3b78aa1adf20d0fb7fea03d68e42788937c2b191721663237a0d82d7e622bb9e4c0eedefe2d573abb3811ac305fa2d3103aea73fb4d665f071d96907209"
         },
         "gx:serviceOffering:gdpr": [
           {
@@ -162,14 +162,14 @@
       },
       "proof": {
         "type": "JsonWebSignature2020",
-        "created": "2024-12-16T18:02:59.329+01:00",
+        "created": "2024-12-16T18:07:06.904+01:00",
         "proofPurpose": "assertionMethod",
         "verificationMethod": "did:web:gaia-x.hb.dfki.de#JWK2020-RSA",
         "@context": [
           "https://www.w3.org/2018/credentials/v1",
           "https://w3id.org/security/suites/jws-2020/v1"
         ],
-        "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..BqRekv0togZm3Okbv05pWvZN0fal9bZOBY2TJX58dqS3-MwLw32yy4Nc2K10JPUqufdC8lCJjoC9kf-AJqJOinfabY-rBd0HW95ILDr1Zn3eCbyr7ABK4J3JGDVTrj1cNEqLAk0UtL6wk94qNIsphLkEgEWyJz5tDqs6mgCEOhC2pifM0wFugNfMx5ShriUsmWmHTE3AhMr6b2farlp-3jfgBDAGhkVVnTiozHAn1b5a46Y3Mw9PiviMNOZM3uTn2z9u4MXc2Zuw1wsKdX52jlXprEPUwJX4b0G97X31NsYZmw8Z5BFuVHZpnEDatRopsdgPNUvGPrfPSA41r3vpMA"
+        "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..T6xNuL1N448hZzm2DSyMjqyThi7wewwOTiRffC_uI91dBEUCOxmZ1N8o7B-b3PB-6MEEAtmvOmdHwZr1xjbGZLtVcGi4xpURlcrqpxDJF1Lg_5E1-ZEleQaycpqzCrkHqv5tNlCLvUoKJrVH97rF4GdF3PodwVdiW11Zwr1UkmAJcWUDNHKmlo0aOG5RCUmYog9p650xk22Fy0xHlwOISxYwCaf2eTWwemdJxE-u2BZ7MxJHsToMUt5bHUMERhCI7AD9vg4DEFeqejsorslP3Ol72d4r3DLajUUthzuN9KFg4upG1tc2WhBaHXhIG5KhFHbA2MmzC8Z2_JNkgScdQg"
       }
     }
   ]
