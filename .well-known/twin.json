@@ -1,176 +1,55 @@
 {
-  "@context": "https://www.w3.org/2018/credentials/v1",
-  "type": "VerifiablePresentation",
-  "verifiableCredential": [
-    {
-      "@context": [
-        "https://www.w3.org/2018/credentials/v1",
-        "https://w3id.org/security/suites/jws-2020/v1",
-        "https://registry.lab.gaia-x.eu/development/api/trusted-shape-registry/v1/shapes/jsonld/trustframework#"
-      ],
-      "type": "VerifiableCredential",
-      "issuanceDate": "2024-12-16T16:45:39.735Z",
-      "credentialSubject": {
-        "@context": "https://registry.lab.gaia-x.eu/development/api/trusted-shape-registry/v1/shapes/jsonld/trustframework#",
-        "type": "gx:GaiaXTermsAndConditions",
-        "gx:termsAndConditions": "The PARTICIPANT signing the Self-Description agrees as follows:\n- to update its descriptions about any changes, be it technical, organizational, or legal - especially but not limited to contractual in regards to the indicated attributes present in the descriptions.\n\nThe keypair used to sign Verifiable Credentials will be revoked where Gaia-X Association becomes aware of any inaccurate statements in regards to the claims which result in a non-compliance with the Trust Framework and policy rules defined in the Policy Rules and Labelling Document (PRLD).",
-        "id": "https://gaia-x.hb.dfki.de/.well-known/2210_gx_tandc_DFKI.json"
-      },
-      "issuer": "did:web:gaia-x.hb.dfki.de",
-      "id": "https://gaia-x.hb.dfki.de/.well-known/2210_gx_tandc_DFKI.json",
-      "proof": {
-        "type": "JsonWebSignature2020",
-        "created": "2024-12-16T17:45:39.751+01:00",
-        "proofPurpose": "assertionMethod",
-        "verificationMethod": "did:web:gaia-x.hb.dfki.de#JWK2020-RSA",
-        "@context": [
-          "https://www.w3.org/2018/credentials/v1",
-          "https://w3id.org/security/suites/jws-2020/v1"
-        ],
-        "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..SH5mCXdY-Xy7I2frh72Vt3WVOcWUxtL1ni8qzb2QuH3ooQGsmLT4EUesLeTc5BkTAAKzXUdtxbTCxzhy4N3Ar9uL9669BNd9VRJcL91P6g3nSW45BfNlgpjg6gTDuYXqavgdLOiOsUQNp2budSyOIRlsP5MKjWqYuFx0_-Zqc5KiTyBORM7AnaVY2ccVlrJBaKJcd5kHBzR084UF-0_Xhs22Av42m-5A4-Ito229XTETrB4uyfNQ7f16lORhTDM_bYIjtiL09gvLV1xzIHxpgRQWOyd3VHKiHlJbefEq7DC3E0RVoOPxHhxPLzbNCh4D8xDNYMeWjqpz1lQhOHDfDg"
-      }
+  "@context": [
+    "https://www.w3.org/2018/credentials/v1",
+    "https://w3id.org/security/suites/jws-2020/v1",
+    "https://registry.lab.gaia-x.eu/development/api/trusted-shape-registry/v1/shapes/jsonld/trustframework#"
+  ],
+  "type": "VerifiableCredential",
+  "id": "did:op:4da23b7051f91d0f728e7e6b77cb533feace020f7e29cffd149f9b80212b0e76",
+  "issuer": "did:web:gaia-x.hb.dfki.de",
+  "issuanceDate": "2024-10-27T13:08:16.301Z",
+  "credentialSubject": {
+    "type": "gx:ServiceOffering",
+    "id": "did:op:4da23b7051f91d0f728e7e6b77cb533feace020f7e29cffd149f9b80212b0e76",
+    "gx:providedBy": {
+      "id": "https://gaia-x.hb.dfki.de/.well-known/2210_gx_participant_DFKI.json"
     },
-    {
-      "@context": [
-        "https://www.w3.org/2018/credentials/v1",
-        "https://w3id.org/security/suites/jws-2020/v1"
-      ],
-      "type": [
-        "VerifiableCredential"
-      ],
-      "id": "https://gaia-x.hb.dfki.de/.well-known/2210_gx_registrationnumber_DFKI.json",
-      "issuer": "did:web:gaia-x.hb.dfki.de",
-      "credentialSubject": {
-        "@context": "https://registry.lab.gaia-x.eu/development/api/trusted-shape-registry/v1/shapes/jsonld/trustframework#",
-        "type": "gx:legalRegistrationNumber",
-        "id": "https://gaia-x.hb.dfki.de/.well-known/2210_gx_registrationnumber_DFKI.json",
-        "gx:leiCode": "3912001EOIALNFMEBT29",
-        "gx:leiCode-countryCode": "DE",
-        "gx:leiCode-subdivisionCountryCode": "DE-RP"
-      },
-      "evidence": [
-        {
-          "gx:evidenceURL": "https://api.gleif.org/api/v1/lei-records/",
-          "gx:executionDate": "2024-09-24T12:56:42.969Z",
-          "gx:evidenceOf": "gx:leiCode"
-        }
-      ],
-      "issuanceDate": "2024-12-16T14:56:36.558Z",
-      "proof": {
-        "type": "JsonWebSignature2020",
-        "created": "2024-12-16T17:45:57.607+01:00",
-        "proofPurpose": "assertionMethod",
-        "verificationMethod": "did:web:gaia-x.hb.dfki.de#JWK2020-RSA",
-        "@context": [
-          "https://www.w3.org/2018/credentials/v1",
-          "https://w3id.org/security/suites/jws-2020/v1"
-        ],
-        "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..Y-52DSt_4WBh8vfISGlL2F3TZQnsFnTw0OBzPERRbNodm-8oDtrJhJ0KKGu5s2SRtn10PvcYKN5PgQP3c9jdmqFhNRf4rhDstgTJNhAuryAgimjtzF6XqGP1YyVbAHj4fzhRakbJxoYndbYsRAtrMvaC7Rh_gRoPJf-aysxIM6E6c5VWStYWUZkhG8sSULz01s4MpK0TMFa7WqnRrpQYPDpM_QwOsOiQKz0CQNTipJmpv7MTDFDLZLHn73b4O9rqDD5_45hj965TWLJAixqX6v9xmyZne8yVwtQap56KqN0BEXIlKEGWmzJUnDfcyVQM9jI8m3HoUUlGYYihBPinaA"
-      }
+    "gx:maintainedBy": {
+      "id": "https://gaia-x.hb.dfki.de/.well-known/2210_gx_participant_DFKI.json"
     },
-    {
-      "@context": [
-        "https://www.w3.org/2018/credentials/v1",
-        "https://w3id.org/security/suites/jws-2020/v1",
-        "https://registry.lab.gaia-x.eu/development/api/trusted-shape-registry/v1/shapes/jsonld/trustframework#"
-      ],
-      "type": [
-        "VerifiableCredential"
-      ],
-      "id": "https://gaia-x.hb.dfki.de/.well-known/2210_gx_participant_DFKI.json",
-      "issuer": "did:web:gaia-x.hb.dfki.de",
-      "issuanceDate": "2024-12-16T14:58:08.752Z",
-      "credentialSubject": {
-        "gx:name": "DFKI",
-        "gx:legalName": "Deutsches Forschungszentrum für Künstliche Intelligenz GmbH",
-        "gx:legalRegistrationNumber": {
-          "id": "https://gaia-x.hb.dfki.de/.well-known/2210_gx_registrationnumber_DFKI.json"
-        },
-        "gx:headquarterAddress": {
-          "gx:countrySubdivisionCode": "DE-RP",
-          "gx:addressCountryCode": "DE",
-          "gx:streetAddress": "Trippstadter Str. 122",
-          "gx:postalCode": "67663",
-          "gx:locality": "Kaiserslautern"
-        },
-        "gx:legalAddress": {
-          "gx:countrySubdivisionCode": "DE-RP",
-          "gx:addressCountryCode": "DE",
-          "gx:streetAddress": "Trippstadter Str. 122",
-          "gx:postalCode": "67663",
-          "gx:locality": "Kaiserslautern"
-        },
-        "gx:website": "https://www.dfki.de/en/web",
-        "type": "gx:LegalParticipant",
-        "gx-terms-and-conditions:gaiaxTermsAndConditions": "70c1d713215f95191a11d38fe2341faed27d19e083917bc8732ca4fea4976700",
-        "id": "https://gaia-x.hb.dfki.de/.well-known/2210_gx_participant_DFKI.json"
-      },
-      "proof": {
-        "type": "JsonWebSignature2020",
-        "created": "2024-12-16T17:46:58.982+01:00",
-        "proofPurpose": "assertionMethod",
-        "verificationMethod": "did:web:gaia-x.hb.dfki.de#JWK2020-RSA",
-        "@context": [
-          "https://www.w3.org/2018/credentials/v1",
-          "https://w3id.org/security/suites/jws-2020/v1"
-        ],
-        "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..fc7bu1pVjDbFAqfD5Ry3s-ZIArTL_S7bbDLbc4IKpc7xF5BTMdLZYgLU3arfUucrDMkK-9Py-LcUioYzc_WorWOTN7p0HhqCSeLF8Ktv3I-X9lMqhfFjZouBpGg3fmg73LtL8RPXlmw1bEHYrIW7qKXaQFqe6zTF7TPghhsG1hTwMKHIUGyGMS1UEZ-ptL-M2Hd0ZykgZddhKhj2X9EF6OS5IE0MZHn6p-q8cqrOyxVKTI6h5Fwm1twraj_413MHaERj5XmJRvuK64Qaq3CxTzrrl8j91606vsmHfEIp2zOvL0r8fp24mAWKOKVSjkIEwwBcysYbYVBs59tISYBVGg"
-      }
+    "gx:serviceOffering:name": "Robotic digital twin service",
+    "gx:serviceOffering:description": "Robotc twin service",
+    "gx:policy": "default: allow",
+    "gx:termsAndConditions": {
+      "gx:URL": "https://raw.githubusercontent.com/dfki-ric-cooperants-stage/dfki-ric-cooperants-stage.github.io/refs/heads/main/Terms.md",
+      "gx:hash": "85fce3b78aa1adf20d0fb7fea03d68e42788937c2b191721663237a0d82d7e622bb9e4c0eedefe2d573abb3811ac305fa2d3103aea73fb4d665f071d96907209"
     },
-    {
-      "@context": [
-        "https://www.w3.org/2018/credentials/v1",
-        "https://w3id.org/security/suites/jws-2020/v1",
-        "https://registry.lab.gaia-x.eu/development/api/trusted-shape-registry/v1/shapes/jsonld/trustframework#"
-      ],
-      "type": "VerifiableCredential",
-      "id": "did:op:4da23b7051f91d0f728e7e6b77cb533feace020f7e29cffd149f9b80212b0e76",
-      "issuer": "did:web:gaia-x.hb.dfki.de",
-      "issuanceDate": "2024-10-27T13:08:16.301Z",
-      "credentialSubject": {
-        "type": "gx:ServiceOffering",
-        "id": "did:op:4da23b7051f91d0f728e7e6b77cb533feace020f7e29cffd149f9b80212b0e76",
-        "gx:providedBy": {
-          "id": "https://gaia-x.hb.dfki.de/.well-known/2210_gx_participant_DFKI.json"
-        },
-        "gx:maintainedBy": {
-          "id": "https://gaia-x.hb.dfki.de/.well-known/2210_gx_participant_DFKI.json"
-        },
-        "gx:serviceOffering:name": "Robotic digital twin service",
-        "gx:serviceOffering:description": "Robotc twin service",
-        "gx:policy": "default: allow",
-        "gx:termsAndConditions": {
-          "gx:URL": "https://raw.githubusercontent.com/dfki-ric-cooperants-stage/dfki-ric-cooperants-stage.github.io/refs/heads/main/Terms.md",
-          "gx:hash": "85fce3b78aa1adf20d0fb7fea03d68e42788937c2b191721663237a0d82d7e622bb9e4c0eedefe2d573abb3811ac305fa2d3103aea73fb4d665f071d96907209"
-        },
-        "gx:serviceOffering:gdpr": [
-          {
-            "gx:serviceOffering:imprint": "https://www.delta-dao.com/imprint/"
-          },
-          {
-            "gx:serviceOffering:privacyPolicy": "https://www.delta-dao.com/privacy/"
-          }
-        ],
-        "gx:serviceOffering:dataProtectionRegime": [
-          "GDPR2016"
-        ],
-        "gx:dataAccountExport": {
-          "gx:requestType": "email",
-          "gx:accessType": "digital",
-          "gx:formatType": "mime/png"
-        }
+    "gx:serviceOffering:gdpr": [
+      {
+        "gx:serviceOffering:imprint": "https://www.delta-dao.com/imprint/"
       },
-      "proof": {
-        "type": "JsonWebSignature2020",
-        "created": "2024-12-16T18:07:06.904+01:00",
-        "proofPurpose": "assertionMethod",
-        "verificationMethod": "did:web:gaia-x.hb.dfki.de#JWK2020-RSA",
-        "@context": [
-          "https://www.w3.org/2018/credentials/v1",
-          "https://w3id.org/security/suites/jws-2020/v1"
-        ],
-        "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..T6xNuL1N448hZzm2DSyMjqyThi7wewwOTiRffC_uI91dBEUCOxmZ1N8o7B-b3PB-6MEEAtmvOmdHwZr1xjbGZLtVcGi4xpURlcrqpxDJF1Lg_5E1-ZEleQaycpqzCrkHqv5tNlCLvUoKJrVH97rF4GdF3PodwVdiW11Zwr1UkmAJcWUDNHKmlo0aOG5RCUmYog9p650xk22Fy0xHlwOISxYwCaf2eTWwemdJxE-u2BZ7MxJHsToMUt5bHUMERhCI7AD9vg4DEFeqejsorslP3Ol72d4r3DLajUUthzuN9KFg4upG1tc2WhBaHXhIG5KhFHbA2MmzC8Z2_JNkgScdQg"
+      {
+        "gx:serviceOffering:privacyPolicy": "https://www.delta-dao.com/privacy/"
       }
+    ],
+    "gx:serviceOffering:dataProtectionRegime": [
+      "GDPR2016"
+    ],
+    "gx:dataAccountExport": {
+      "gx:requestType": "email",
+      "gx:accessType": "digital",
+      "gx:formatType": "mime/png"
     }
-  ]
+  },
+  "proof": {
+    "type": "JsonWebSignature2020",
+    "created": "2024-12-16T18:15:20.648+01:00",
+    "proofPurpose": "assertionMethod",
+    "verificationMethod": "did:web:gaia-x.hb.dfki.de#JWK2020-RSA",
+    "@context": [
+      "https://www.w3.org/2018/credentials/v1",
+      "https://w3id.org/security/suites/jws-2020/v1"
+    ],
+    "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..It7lvoNrZppysD6vXcwr1KI04-6PYm4QBCCY1NxDTBmJ4_JcGP-MKzR00MjI0ZhZgXvzE-yvX6WnwkdVh5rBZ_6u4Gm5OWGRoMUXy3QM10PLpt7hFdBIhDaZ2xpxtT4AL-YYU6QbjWuh-8G0L94V7Ujg4bHkJQqvPMG1bUlLJRdRPJJHSAQq1Zhn6cMjsuvxeIRq2dfbyxCrRmxC6llkqk1ygbDkoy0DvadYFHQLksxYhXOUrP1s6YD9Qu5ubXT-mhho5JT2aQ0ig2FrN0jHHU3UOAwUdw6-NZmI-39Lxvi0-hZMvLtvydWvHVP7jXfk_b8OvitkAaXpzws4uXBnDA"
+  }
 }
